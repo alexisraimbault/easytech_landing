@@ -15,11 +15,11 @@ export default function HibiApp() {
       <section className="app-card">
         <h3>À propos de Hibi</h3>
         <p>
-          Hibi est une application révolutionnaire de développement personnel
+          {`Hibi est une application révolutionnaire de développement personnel
           qui utilise l'intelligence artificielle pour vous aider à créer et
           maintenir de bonnes habitudes. Grâce à des algorithmes avancés, Hibi
           s'adapte à votre rythme de vie et vous propose des conseils
-          personnalisés.
+          personnalisés.`}
         </p>
 
         <h3>Fonctionnalités principales</h3>
@@ -58,7 +58,7 @@ export default function HibiApp() {
             Politique de confidentialité
           </a>
           <a href="/terms/hibi" className="btn btn-secondary">
-            Conditions d'utilisation
+            {"Conditions d'utilisation"}
           </a>
         </div>
       </section>

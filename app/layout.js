@@ -1,4 +1,5 @@
 import "./globals.css";
+import Link from "next/link";
 
 export const metadata = {
   title: "EasyTech Agency",
@@ -14,9 +15,9 @@ export default function RootLayout({ children }) {
             <div className="nav-container">
               <h1 className="logo">EasyTech</h1>
               <div className="nav-links">
-                <a href="/">Accueil</a>
-                <a href="/apps/hibi">Nos Apps</a>
-                <a href="mailto:contact@easytech-agency.net">Contact</a>
+                <Link href="/">Accueil</Link>
+                <Link href="/apps/hibi">Nos Apps</Link>
+                <Link href="mailto:contact@easytech-agency.net">Contact</Link>
               </div>
             </div>
           </nav>

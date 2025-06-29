@@ -27,9 +27,9 @@ export default function Home() {
         <div className="app-card">
           <h3>Hibi</h3>
           <p>
-            Application de développement personnel et suivi d'habitudes avec
+            {`Application de développement personnel et suivi d'habitudes avec
             intelligence artificielle. Transformez votre quotidien avec des
-            conseils personnalisés et un suivi intelligent de vos habitudes.
+            conseils personnalisés et un suivi intelligent de vos habitudes.`}
           </p>
           <div className="app-links">
             <a href="/apps/hibi" className="btn">
