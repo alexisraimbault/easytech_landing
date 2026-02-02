@@ -62,6 +62,68 @@ export default function Home() {
             </a>
           </div>
         </div>
+
+        <div className="app-card">
+          <h3>Aether</h3>
+          <p>
+            A beautifully minimal way for couples to stay connected. Send gentle
+            pulses and whispers to your partner, and watch your bond grow through
+            a stunning living visualization.
+          </p>
+          <div className="features-grid">
+            <div className="feature-item">
+              <div className="feature-icon">💗</div>
+              <h4>Pulses</h4>
+              <p>A gentle tap to say &quot;thinking of you&quot;</p>
+            </div>
+            <div className="feature-item">
+              <div className="feature-icon">💬</div>
+              <h4>Whispers</h4>
+              <p>Share short, meaningful messages</p>
+            </div>
+            <div className="feature-item">
+              <div className="feature-icon">✨</div>
+              <h4>Living Bond</h4>
+              <p>Watch your connection grow and glow</p>
+            </div>
+          </div>
+          <div className="app-links">
+            <a href="/apps/aether" className="btn">
+              Discover Aether
+            </a>
+          </div>
+        </div>
+
+        <div className="app-card">
+          <h3>Bento Streaks</h3>
+          <p>
+            Track your habits and build streaks with a unique gamified bento box
+            system. Watch your bento fill with delicious food as you maintain
+            your daily habits.
+          </p>
+          <div className="features-grid">
+            <div className="feature-item">
+              <div className="feature-icon">🍱</div>
+              <h4>Bento System</h4>
+              <p>Fill your bento as you build streaks</p>
+            </div>
+            <div className="feature-item">
+              <div className="feature-icon">🔥</div>
+              <h4>Streak Tracking</h4>
+              <p>Build and maintain daily habits</p>
+            </div>
+            <div className="feature-item">
+              <div className="feature-icon">📱</div>
+              <h4>Widget First</h4>
+              <p>Beautiful widgets for your home screen</p>
+            </div>
+          </div>
+          <div className="app-links">
+            <a href="/apps/bento-streaks" className="btn">
+              Discover Bento Streaks
+            </a>
+          </div>
+        </div>
       </section>
 
       <section className="contact-info">
