@@ -124,6 +124,37 @@ export default function Home() {
             </a>
           </div>
         </div>
+
+        <div className="app-card">
+          <h3>PDF Marmot</h3>
+          <p>
+            Your friendly PDF companion! Scan documents, add signatures, and
+            merge files with ease. Meet Marvin the Marmot who guides you through
+            your paperless journey with badges and achievements.
+          </p>
+          <div className="features-grid">
+            <div className="feature-item">
+              <div className="feature-icon">📸</div>
+              <h4>Smart Scanning</h4>
+              <p>Capture perfect scans with edge detection</p>
+            </div>
+            <div className="feature-item">
+              <div className="feature-icon">✍️</div>
+              <h4>Easy Signatures</h4>
+              <p>Draw and place signatures anywhere</p>
+            </div>
+            <div className="feature-item">
+              <div className="feature-icon">📑</div>
+              <h4>Merge PDFs</h4>
+              <p>Combine documents with drag-to-reorder</p>
+            </div>
+          </div>
+          <div className="app-links">
+            <a href="/apps/pdfmarmot" className="btn">
+              Discover PDF Marmot
+            </a>
+          </div>
+        </div>
       </section>
 
       <section className="contact-info">
