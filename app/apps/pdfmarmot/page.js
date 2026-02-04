@@ -37,8 +37,8 @@ export default function PDFMarmotApp() {
         <p>
           PDF Marmot makes document management delightful! With Marvin the
           Marmot as your guide, scanning, signing, and merging PDFs has never
-          been easier or more fun. Whether you're digitizing receipts, signing
-          contracts, or combining reports, PDF Marmot has you covered.
+          been easier or more fun. Whether you&apos;re digitizing receipts,
+          signing contracts, or combining reports, PDF Marmot has you covered.
         </p>
       </section>
 

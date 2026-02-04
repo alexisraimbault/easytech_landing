@@ -32,8 +32,12 @@ export default function PDFMarmotPrivacy() {
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
         <li>{"Scanned documents (stored locally on your device)"}</li>
         <li>{"Signature data (stored locally on your device)"}</li>
-        <li>{"Usage statistics (document count, scans, merges - stored locally)"}</li>
-        <li>{"Purchase information for premium subscriptions (managed by Apple)"}</li>
+        <li>
+          {"Usage statistics (document count, scans, merges - stored locally)"}
+        </li>
+        <li>
+          {"Purchase information for premium subscriptions (managed by Apple)"}
+        </li>
         <li>{"Anonymous technical data (device type, iOS version)"}</li>
         <li>Contact information if you reach out to us for support</li>
       </ul>
@@ -95,7 +99,7 @@ export default function PDFMarmotPrivacy() {
         <li>Contact us with any questions about your data</li>
       </ul>
 
-      <h2>10. Children's Privacy</h2>
+      <h2>10. Children&apos;s Privacy</h2>
       <p>
         {`PDF Marmot is not directed at children under 13. We do not knowingly
         collect personal information from children under 13. If you believe we
