@@ -155,6 +155,37 @@ export default function Home() {
             </a>
           </div>
         </div>
+
+        <div className="app-card">
+          <h3>VocalCoach</h3>
+          <p>
+            Your personal AI-powered speaking coach. Get instant feedback on
+            pace, clarity, filler words, and more. Perfect for interviews,
+            presentations, and everyday communication.
+          </p>
+          <div className="features-grid">
+            <div className="feature-item">
+              <div className="feature-icon">🎤</div>
+              <h4>Speech Analysis</h4>
+              <p>Instant feedback on pace, clarity, and filler words</p>
+            </div>
+            <div className="feature-item">
+              <div className="feature-icon">💼</div>
+              <h4>Practice Modes</h4>
+              <p>Interview prep, presentations, and pitch practice</p>
+            </div>
+            <div className="feature-item">
+              <div className="feature-icon">🔒</div>
+              <h4>100% Private</h4>
+              <p>All analysis on-device, your audio never leaves</p>
+            </div>
+          </div>
+          <div className="app-links">
+            <a href="/apps/vocalcoach" className="btn">
+              Discover VocalCoach
+            </a>
+          </div>
+        </div>
       </section>
 
       <section className="contact-info">
