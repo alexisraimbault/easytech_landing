@@ -186,7 +186,6 @@ export default function Home() {
             </a>
           </div>
         </div>
-      </section>
 
         <div className="app-card">
           <h3>AI Debate Coach</h3>
