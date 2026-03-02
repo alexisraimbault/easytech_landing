@@ -188,6 +188,38 @@ export default function Home() {
         </div>
       </section>
 
+        <div className="app-card">
+          <h3>AI Debate Coach</h3>
+          <p>
+            Sharpen your critical thinking with AI-powered exercises. Detect
+            logical fallacies, evaluate argument strength, and build reasoning
+            skills — all through quick, tap-based sessions.
+          </p>
+          <div className="features-grid">
+            <div className="feature-item">
+              <div className="feature-icon">🔍</div>
+              <h4>Fallacy Detection</h4>
+              <p>Spot logical fallacies in AI-generated arguments</p>
+            </div>
+            <div className="feature-item">
+              <div className="feature-icon">⚖️</div>
+              <h4>Argument Analysis</h4>
+              <p>Compare arguments and pick the strongest one</p>
+            </div>
+            <div className="feature-item">
+              <div className="feature-icon">🧠</div>
+              <h4>AI-Powered</h4>
+              <p>Unique exercises every time, with instant feedback</p>
+            </div>
+          </div>
+          <div className="app-links">
+            <a href="/apps/debate-coach" className="btn">
+              Discover AI Debate Coach
+            </a>
+          </div>
+        </div>
+      </section>
+
       <section className="contact-info">
         <h3>Contact</h3>
         <p>
