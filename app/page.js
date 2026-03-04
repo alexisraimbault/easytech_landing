@@ -219,6 +219,37 @@ export default function Home() {
         </div>
       </section>
 
+        <div className="app-card">
+          <h3>AI Nail Design</h3>
+          <p>
+            Generate stunning AI nail art designs and try them on your real hands
+            with virtual try-on. Describe any look, pick your shape and style,
+            and see it on your nails before booking your next salon appointment.
+          </p>
+          <div className="features-grid">
+            <div className="feature-item">
+              <div className="feature-icon">✨</div>
+              <h4>AI Generator</h4>
+              <p>Describe your dream nails and AI creates them</p>
+            </div>
+            <div className="feature-item">
+              <div className="feature-icon">📸</div>
+              <h4>Virtual Try-On</h4>
+              <p>See designs on your actual hands with camera</p>
+            </div>
+            <div className="feature-item">
+              <div className="feature-icon">💅</div>
+              <h4>Every Style</h4>
+              <p>French, chrome, gel, ombre, glitter and more</p>
+            </div>
+          </div>
+          <div className="app-links">
+            <a href="/apps/ai-nail-design" className="btn">
+              Discover AI Nail Design
+            </a>
+          </div>
+        </div>
+
       <section className="contact-info">
         <h3>Contact</h3>
         <p>
