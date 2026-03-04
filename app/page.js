@@ -1,264 +1,249 @@
-import Image from "next/image";
+import Link from "next/link";
 
 export const metadata = {
-  title: "EasyTech Agency - Innovative Mobile Apps",
+  title: "EasyTech — AI Infrastructure & Apps",
   description:
-    "Development of personal development mobile applications powered by artificial intelligence",
+    "AI tech company building SaaS products, AI pipelines, autonomous agents, and mobile apps. Based in Annecy, France.",
 };
 
 export default function Home() {
   return (
     <div>
-      <section className="hero">
-        <h2>
-          <span className="hero-accent">Innovative</span> Mobile Apps
-        </h2>
-        <p>
-          We create personal development applications powered by artificial
-          intelligence
+      {/* ─── HERO ─── */}
+      <section className="company-hero">
+        <div className="hero-tag stagger-1">AI-First Engineering</div>
+        <h1 className="stagger-2">
+          We build the <span className="accent-cyan">AI layer</span> your
+          product needs
+        </h1>
+        <p className="hero-description stagger-3">
+          From production-grade AI pipelines to autonomous agent systems, we
+          design, ship, and scale intelligent software that works.
         </p>
+        <div className="hero-location stagger-4">
+          <span className="loc-dot"></span>
+          Annecy, France
+        </div>
       </section>
 
-      <section className="apps-section">
-        <h3>Our Applications</h3>
-        <div className="app-card">
-          <h3>Hibi</h3>
-          <div className="app-visual">
-            <Image
-              src="/hibi_visual.png"
-              alt="Hibi - Personal development application"
-              width={600}
-              height={400}
-              className="app-visual-image"
-              style={{ width: "100%", maxWidth: "600px", height: "auto" }}
-              priority
-            />
-          </div>
-          <p>
-            Personal development and habit tracking application with artificial
-            intelligence. Transform your daily life with personalized advice and
-            intelligent tracking of your habits.
-          </p>
-          <div className="features-grid">
-            <div className="feature-item">
-              <div className="feature-icon">🎯</div>
-              <h4>Smart Tracking</h4>
-              <p>Track your habits with detailed analytics</p>
-            </div>
-            <div className="feature-item">
-              <div className="feature-icon">🤖</div>
-              <h4>AI Coaching</h4>
-              <p>Receive personalized recommendations</p>
-            </div>
-            <div className="feature-item">
-              <div className="feature-icon">📊</div>
-              <h4>Statistics</h4>
-              <p>Visualize your progress over time</p>
-            </div>
-          </div>
-          <div className="app-links">
-            <a href="/apps/hibi" className="btn">
-              Discover Hibi
-            </a>
-          </div>
+      {/* ─── SERVICES ─── */}
+      <section className="services-section">
+        <div className="section-header">
+          <span className="section-label">What we build</span>
+          <h2 className="section-title">
+            End-to-end AI infrastructure
+          </h2>
         </div>
 
-        <div className="app-card">
-          <h3>Aether</h3>
-          <p>
-            A beautifully minimal way for couples to stay connected. Send gentle
-            pulses and whispers to your partner, and watch your bond grow through
-            a stunning living visualization.
-          </p>
-          <div className="features-grid">
-            <div className="feature-item">
-              <div className="feature-icon">💗</div>
-              <h4>Pulses</h4>
-              <p>A gentle tap to say &quot;thinking of you&quot;</p>
-            </div>
-            <div className="feature-item">
-              <div className="feature-icon">💬</div>
-              <h4>Whispers</h4>
-              <p>Share short, meaningful messages</p>
-            </div>
-            <div className="feature-item">
-              <div className="feature-icon">✨</div>
-              <h4>Living Bond</h4>
-              <p>Watch your connection grow and glow</p>
+        <div className="services-grid">
+          <div className="service-card stagger-1">
+            <div className="service-icon">⚡</div>
+            <h3>SaaS Products</h3>
+            <p>
+              Full-stack SaaS applications from zero to production. We handle
+              architecture, backend, frontend, payments, and ongoing
+              infrastructure.
+            </p>
+            <div className="service-tags">
+              <span className="service-tag">Next.js</span>
+              <span className="service-tag">Node</span>
+              <span className="service-tag">Stripe</span>
+              <span className="service-tag">Vercel</span>
             </div>
           </div>
-          <div className="app-links">
-            <a href="/apps/aether" className="btn">
-              Discover Aether
-            </a>
-          </div>
-        </div>
 
-        <div className="app-card">
-          <h3>Bento Streaks</h3>
-          <p>
-            Track your habits and build streaks with a unique gamified bento box
-            system. Watch your bento fill with delicious food as you maintain
-            your daily habits.
-          </p>
-          <div className="features-grid">
-            <div className="feature-item">
-              <div className="feature-icon">🍱</div>
-              <h4>Bento System</h4>
-              <p>Fill your bento as you build streaks</p>
-            </div>
-            <div className="feature-item">
-              <div className="feature-icon">🔥</div>
-              <h4>Streak Tracking</h4>
-              <p>Build and maintain daily habits</p>
-            </div>
-            <div className="feature-item">
-              <div className="feature-icon">📱</div>
-              <h4>Widget First</h4>
-              <p>Beautiful widgets for your home screen</p>
+          <div className="service-card stagger-2">
+            <div className="service-icon">🔀</div>
+            <h3>AI Pipelines</h3>
+            <p>
+              Image generation, video processing, data transformation — deployed
+              as scalable, cost-efficient pipelines you can call from anywhere.
+            </p>
+            <div className="service-tags">
+              <span className="service-tag">ComfyUI</span>
+              <span className="service-tag">Diffusion</span>
+              <span className="service-tag">FFmpeg</span>
+              <span className="service-tag">GPU</span>
             </div>
           </div>
-          <div className="app-links">
-            <a href="/apps/bento-streaks" className="btn">
-              Discover Bento Streaks
-            </a>
-          </div>
-        </div>
 
-        <div className="app-card">
-          <h3>PDF Marmot</h3>
-          <p>
-            Your friendly PDF companion! Scan documents, add signatures, and
-            merge files with ease. Meet Marvin the Marmot who guides you through
-            your paperless journey with badges and achievements.
-          </p>
-          <div className="features-grid">
-            <div className="feature-item">
-              <div className="feature-icon">📸</div>
-              <h4>Smart Scanning</h4>
-              <p>Capture perfect scans with edge detection</p>
-            </div>
-            <div className="feature-item">
-              <div className="feature-icon">✍️</div>
-              <h4>Easy Signatures</h4>
-              <p>Draw and place signatures anywhere</p>
-            </div>
-            <div className="feature-item">
-              <div className="feature-icon">📑</div>
-              <h4>Merge PDFs</h4>
-              <p>Combine documents with drag-to-reorder</p>
+          <div className="service-card stagger-3">
+            <div className="service-icon">🤖</div>
+            <h3>Autonomous Agents</h3>
+            <p>
+              Custom agent wrappers that reason, decide, and act. Multi-step
+              workflows, tool-use orchestration, and human-in-the-loop when it
+              matters.
+            </p>
+            <div className="service-tags">
+              <span className="service-tag">LLM</span>
+              <span className="service-tag">RAG</span>
+              <span className="service-tag">Tool Use</span>
+              <span className="service-tag">MCP</span>
             </div>
           </div>
-          <div className="app-links">
-            <a href="/apps/pdfmarmot" className="btn">
-              Discover PDF Marmot
-            </a>
-          </div>
-        </div>
 
-        <div className="app-card">
-          <h3>VocalCoach</h3>
-          <p>
-            Your personal AI-powered speaking coach. Get instant feedback on
-            pace, clarity, filler words, and more. Perfect for interviews,
-            presentations, and everyday communication.
-          </p>
-          <div className="features-grid">
-            <div className="feature-item">
-              <div className="feature-icon">🎤</div>
-              <h4>Speech Analysis</h4>
-              <p>Instant feedback on pace, clarity, and filler words</p>
+          <div className="service-card stagger-4">
+            <div className="service-icon">📱</div>
+            <h3>Mobile Apps</h3>
+            <p>
+              Native iOS and Android apps — from personal development to
+              creative tools. Published on both stores with millions of
+              impressions.
+            </p>
+            <div className="service-tags">
+              <span className="service-tag">Swift</span>
+              <span className="service-tag">Kotlin</span>
+              <span className="service-tag">Firebase</span>
+              <span className="service-tag">RevenueCat</span>
             </div>
-            <div className="feature-item">
-              <div className="feature-icon">💼</div>
-              <h4>Practice Modes</h4>
-              <p>Interview prep, presentations, and pitch practice</p>
-            </div>
-            <div className="feature-item">
-              <div className="feature-icon">🔒</div>
-              <h4>100% Private</h4>
-              <p>All analysis on-device, your audio never leaves</p>
-            </div>
-          </div>
-          <div className="app-links">
-            <a href="/apps/vocalcoach" className="btn">
-              Discover VocalCoach
-            </a>
-          </div>
-        </div>
-
-        <div className="app-card">
-          <h3>AI Debate Coach</h3>
-          <p>
-            Sharpen your critical thinking with AI-powered exercises. Detect
-            logical fallacies, evaluate argument strength, and build reasoning
-            skills — all through quick, tap-based sessions.
-          </p>
-          <div className="features-grid">
-            <div className="feature-item">
-              <div className="feature-icon">🔍</div>
-              <h4>Fallacy Detection</h4>
-              <p>Spot logical fallacies in AI-generated arguments</p>
-            </div>
-            <div className="feature-item">
-              <div className="feature-icon">⚖️</div>
-              <h4>Argument Analysis</h4>
-              <p>Compare arguments and pick the strongest one</p>
-            </div>
-            <div className="feature-item">
-              <div className="feature-icon">🧠</div>
-              <h4>AI-Powered</h4>
-              <p>Unique exercises every time, with instant feedback</p>
-            </div>
-          </div>
-          <div className="app-links">
-            <a href="/apps/debate-coach" className="btn">
-              Discover AI Debate Coach
-            </a>
           </div>
         </div>
       </section>
 
-        <div className="app-card">
-          <h3>AI Nail Design</h3>
-          <p>
-            Generate stunning AI nail art designs and try them on your real hands
-            with virtual try-on. Describe any look, pick your shape and style,
-            and see it on your nails before booking your next salon appointment.
-          </p>
-          <div className="features-grid">
-            <div className="feature-item">
-              <div className="feature-icon">✨</div>
-              <h4>AI Generator</h4>
-              <p>Describe your dream nails and AI creates them</p>
-            </div>
-            <div className="feature-item">
-              <div className="feature-icon">📸</div>
-              <h4>Virtual Try-On</h4>
-              <p>See designs on your actual hands with camera</p>
-            </div>
-            <div className="feature-item">
-              <div className="feature-icon">💅</div>
-              <h4>Every Style</h4>
-              <p>French, chrome, gel, ombre, glitter and more</p>
-            </div>
+      {/* ─── STATS ─── */}
+      <div className="stats-bar">
+        <div className="stat-item">
+          <div className="stat-number">14+</div>
+          <div className="stat-label">Apps Published</div>
+        </div>
+        <div className="stat-item">
+          <div className="stat-number">2</div>
+          <div className="stat-label">Platforms</div>
+        </div>
+        <div className="stat-item">
+          <div className="stat-number">24/7</div>
+          <div className="stat-label">AI Pipelines Running</div>
+        </div>
+        <div className="stat-item">
+          <div className="stat-number">∞</div>
+          <div className="stat-label">Tokens Processed</div>
+        </div>
+      </div>
+
+      {/* ─── TERMINAL ─── */}
+      <div className="terminal-block">
+        <div className="terminal-header">
+          <span className="terminal-dot"></span>
+          <span className="terminal-dot"></span>
+          <span className="terminal-dot"></span>
+        </div>
+        <div className="terminal-body">
+          <div>
+            <span className="comment">
+              # Deploy an image generation pipeline
+            </span>
           </div>
-          <div className="app-links">
-            <a href="/apps/ai-nail-design" className="btn">
-              Discover AI Nail Design
-            </a>
+          <div>
+            <span className="cmd">easytech</span>{" "}
+            <span className="flag">deploy</span>{" "}
+            <span className="string">--pipeline image-gen</span>{" "}
+            <span className="flag">--gpu</span> a100{" "}
+            <span className="flag">--scale</span> auto
+          </div>
+          <div style={{ marginTop: 8 }}>
+            <span className="comment">
+              # Wrap an LLM agent with tools and memory
+            </span>
+          </div>
+          <div>
+            <span className="cmd">easytech</span>{" "}
+            <span className="flag">agent</span>{" "}
+            <span className="string">--model claude-opus</span>{" "}
+            <span className="flag">--tools</span> search,code,browse{" "}
+            <span className="flag">--memory</span> persistent
           </div>
         </div>
+      </div>
 
-      <section className="contact-info">
-        <h3>Contact</h3>
-        <p>
-          Have a question or project? Get in touch!
-          <br />
-          <a href="mailto:contact@easytech-agency.net">
+      {/* ─── TECH STACK ─── */}
+      <section className="tech-section">
+        <div className="section-header">
+          <span className="section-label">Stack</span>
+          <h2 className="section-title">Tools we work with</h2>
+        </div>
+        <div className="tech-grid">
+          {[
+            "Python",
+            "TypeScript",
+            "Swift",
+            "Kotlin",
+            "React",
+            "Next.js",
+            "Node.js",
+            "FastAPI",
+            "PyTorch",
+            "ComfyUI",
+            "Claude API",
+            "OpenAI",
+            "Firebase",
+            "PostgreSQL",
+            "Redis",
+            "Docker",
+            "AWS",
+            "Vercel",
+            "Cloudflare",
+            "Stripe",
+          ].map((tech) => (
+            <span key={tech} className="tech-pill">
+              {tech}
+            </span>
+          ))}
+        </div>
+      </section>
+
+      {/* ─── APPS PREVIEW ─── */}
+      <section className="apps-preview">
+        <div className="section-header">
+          <span className="section-label">Mobile</span>
+          <h2 className="section-title">Our published apps</h2>
+        </div>
+        <p className="apps-preview-desc">
+          14+ apps on the App Store and Google Play — from AI-powered creative
+          tools to personal development companions.
+        </p>
+        <div className="apps-preview-grid">
+          {[
+            { icon: "🎯", name: "Hibi" },
+            { icon: "💗", name: "Aether" },
+            { icon: "🍱", name: "Bento Streaks" },
+            { icon: "📄", name: "PDF Marmot" },
+            { icon: "🎤", name: "VocalCoach" },
+            { icon: "🧠", name: "Debate Coach" },
+            { icon: "💅", name: "AI Nail Design" },
+            { icon: "📊", name: "LightMeter" },
+            { icon: "🧘", name: "Sculpt" },
+            { icon: "🌬️", name: "Breathly" },
+            { icon: "🖼️", name: "Compose" },
+            { icon: "📷", name: "ScanCode" },
+            { icon: "🎨", name: "Widgetly" },
+            { icon: "📖", name: "HolyVerse" },
+          ].map((app) => (
+            <div key={app.name} className="app-preview-tile">
+              <div className="app-preview-icon">{app.icon}</div>
+              <div className="app-preview-name">{app.name}</div>
+            </div>
+          ))}
+        </div>
+        <Link href="/apps" className="btn">
+          View All Apps →
+        </Link>
+      </section>
+
+      {/* ─── CTA ─── */}
+      <section className="cta-section">
+        <div className="cta-box">
+          <h2>
+            Need AI infrastructure?
+          </h2>
+          <p>
+            Tell us what you&apos;re building. We&apos;ll figure out how to make
+            it work.
+          </p>
+          <a href="mailto:contact@easytech-agency.net" className="btn btn-primary">
             contact@easytech-agency.net
           </a>
-        </p>
+        </div>
       </section>
     </div>
   );
