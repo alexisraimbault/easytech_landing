@@ -11,7 +11,7 @@ export default function AINailDesignPrivacy() {
     <div className="legal-content">
       <h1>Privacy Policy - AI Nail Design</h1>
       <p>
-        <strong>Last updated:</strong> March 4, 2026
+        <strong>Last updated:</strong> March 7, 2026
       </p>
 
       <h2>1. Introduction</h2>
@@ -166,7 +166,8 @@ export default function AINailDesignPrivacy() {
         <li>To protect our rights or your safety</li>
         <li>
           With service providers who assist in operating the App (Firebase,
-          RevenueCat) — under strict data processing agreements
+          OpenAI, Google Cloud AI, RevenueCat, PostHog) — as described in
+          Section 7
         </li>
       </ul>
       <p>
@@ -176,22 +177,129 @@ export default function AINailDesignPrivacy() {
         </strong>
       </p>
 
-      <h2>7. Third-Party Services</h2>
+      <h2>7. AI-Powered Features and Third-Party AI Services</h2>
+      <p>
+        AI Nail Design uses third-party artificial intelligence services to
+        power its core features. When you use these features, certain data is
+        sent to these services for processing:
+      </p>
+
+      <h3>7.1 Design Generation</h3>
+      <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
+        <li>
+          <strong>Data sent:</strong> Your text prompts describing nail designs,
+          selected nail shape, style, and color preferences
+        </li>
+        <li>
+          <strong>Sent to:</strong> OpenAI (for prompt optimization) and Google
+          Vertex AI / Imagen (for image generation)
+        </li>
+        <li>
+          <strong>Purpose:</strong> To generate AI-created nail art designs
+          based on your descriptions
+        </li>
+      </ul>
+
+      <h3>7.2 Virtual Try-On</h3>
+      <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
+        <li>
+          <strong>Data sent:</strong> Your hand photo and the selected nail
+          design image
+        </li>
+        <li>
+          <strong>Sent to:</strong> Google Gemini (for AI image editing)
+        </li>
+        <li>
+          <strong>Purpose:</strong> To preview how nail designs would look on
+          your actual hands
+        </li>
+      </ul>
+
+      <h3>7.3 AI Suggestions</h3>
+      <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
+        <li>
+          <strong>Data sent:</strong> Your style preferences, selected shapes,
+          and colors
+        </li>
+        <li>
+          <strong>Sent to:</strong> OpenAI (for text generation)
+        </li>
+        <li>
+          <strong>Purpose:</strong> To suggest personalized nail design ideas
+        </li>
+      </ul>
+
+      <p>
+        These third-party AI services process your data solely to provide the
+        requested features.{" "}
+        <strong>
+          Your data is not used by these providers to train AI models.
+        </strong>{" "}
+        The App requests your explicit consent before sending personal data
+        (such as hand photos) to third-party AI services.
+      </p>
+
+      <h3>7.4 All Third-Party Services</h3>
       <p>The App uses the following third-party services:</p>
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
         <li>
           <strong>Firebase</strong> (Google) — Authentication, Cloud Functions
-          (AI processing), Cloud Storage (image storage), Cloud Messaging
-          (push notifications)
+          (server-side processing), Cloud Storage (image storage)
         </li>
         <li>
-          <strong>RevenueCat</strong> — Subscription management
+          <strong>OpenAI</strong> — AI text generation (prompt enrichment and
+          design suggestions). See the{" "}
+          <a
+            href="https://openai.com/privacy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            OpenAI Privacy Policy
+          </a>
+        </li>
+        <li>
+          <strong>Google Vertex AI / Imagen</strong> — AI image generation. See
+          the{" "}
+          <a
+            href="https://cloud.google.com/terms/cloud-privacy-notice"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Google Cloud Privacy Notice
+          </a>
+        </li>
+        <li>
+          <strong>Google Gemini</strong> — AI image editing (virtual try-on).
+          See the{" "}
+          <a
+            href="https://cloud.google.com/terms/cloud-privacy-notice"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Google Cloud Privacy Notice
+          </a>
+        </li>
+        <li>
+          <strong>RevenueCat</strong> — Subscription management. See the{" "}
+          <a
+            href="https://www.revenuecat.com/privacy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            RevenueCat Privacy Policy
+          </a>
+        </li>
+        <li>
+          <strong>PostHog</strong> — Anonymized analytics. See the{" "}
+          <a
+            href="https://posthog.com/privacy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            PostHog Privacy Policy
+          </a>
         </li>
       </ul>
-      <p>
-        Each of these services has its own privacy policy governing how they
-        handle data.
-      </p>
 
       <h2>8. Data Security</h2>
       <p>
