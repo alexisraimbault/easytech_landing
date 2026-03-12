@@ -218,6 +218,37 @@ export default function AppsPage() {
         </div>
 
         <div className="app-card">
+          <h3>AI Spiritual Readings</h3>
+          <p>
+            Your all-in-one spiritual companion powered by AI. Tarot readings,
+            daily horoscope, palm reading, numerology, angel numbers, and daily
+            cosmic guidance — all in one beautifully designed app.
+          </p>
+          <div className="features-grid">
+            <div className="feature-item">
+              <div className="feature-icon">🃏</div>
+              <h4>Tarot Readings</h4>
+              <p>Draw cards and receive rich AI interpretations</p>
+            </div>
+            <div className="feature-item">
+              <div className="feature-icon">🤚</div>
+              <h4>Palm Reading</h4>
+              <p>AI-powered palm analysis from your camera</p>
+            </div>
+            <div className="feature-item">
+              <div className="feature-icon">♈</div>
+              <h4>Horoscope & More</h4>
+              <p>Daily horoscope, numerology, and angel numbers</p>
+            </div>
+          </div>
+          <div className="app-links">
+            <a href="/apps/ai-spiritual-readings" className="btn">
+              Discover AI Spiritual Readings
+            </a>
+          </div>
+        </div>
+
+        <div className="app-card">
           <h3>AI Nail Design</h3>
           <p>
             Generate stunning AI nail art designs and try them on your real hands
