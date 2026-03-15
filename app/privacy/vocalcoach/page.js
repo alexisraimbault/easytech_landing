@@ -29,16 +29,26 @@ export default function VocalCoachPrivacy() {
       </p>
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
         <li>
-          <strong>{"Les enregistrements audio restent sur votre appareil"}</strong>
+          <strong>
+            {"Les enregistrements audio restent sur votre appareil"}
+          </strong>
           {" — ils ne sont jamais transmis à nos serveurs ni à des tiers"}
         </li>
         <li>
-          {"L'analyse des métriques de livraison (rythme, clarté, volume, etc.) se fait entièrement sur votre appareil"}
+          {
+            "L'analyse des métriques de livraison (rythme, clarté, volume, etc.) se fait entièrement sur votre appareil"
+          }
         </li>
         <li>
-          {"La transcription utilise les technologies natives d'Apple (Speech Framework), qui peut traiter l'audio sur les serveurs d'Apple lorsque la reconnaissance sur appareil n'est pas disponible"}
+          {
+            "La transcription utilise les technologies natives d'Apple (Speech Framework), qui peut traiter l'audio sur les serveurs d'Apple lorsque la reconnaissance sur appareil n'est pas disponible"
+          }
         </li>
-        <li>{"Vous pouvez supprimer vos enregistrements à tout moment depuis l'application"}</li>
+        <li>
+          {
+            "Vous pouvez supprimer vos enregistrements à tout moment depuis l'application"
+          }
+        </li>
       </ul>
 
       <h2>3. Coaching IA personnalisé</h2>
@@ -47,7 +57,9 @@ export default function VocalCoachPrivacy() {
       </p>
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
         <li>{"La transcription textuelle de votre enregistrement"}</li>
-        <li>{"Vos scores de métriques vocales (rythme, clarté, volume, etc.)"}</li>
+        <li>
+          {"Vos scores de métriques vocales (rythme, clarté, volume, etc.)"}
+        </li>
         <li>{"Le contexte de l'exercice (type de mode, instructions)"}</li>
         <li>{"Un résumé anonymisé de votre historique de progression"}</li>
       </ul>
@@ -60,10 +72,24 @@ export default function VocalCoachPrivacy() {
         {`Nous collectons un minimum d'informations pour vous fournir notre Service :`}
       </p>
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
-        <li>{"Données de progression et statistiques d'utilisation (stockées localement sur votre appareil)"}</li>
-        <li>{"Informations d'achat pour la gestion des abonnements (via RevenueCat)"}</li>
-        <li>{"Données d'analyse anonymisées pour améliorer l'application (via PostHog)"}</li>
-        <li>{"Données techniques anonymisées (type d'appareil, version iOS)"}</li>
+        <li>
+          {
+            "Données de progression et statistiques d'utilisation (stockées localement sur votre appareil)"
+          }
+        </li>
+        <li>
+          {
+            "Informations d'achat pour la gestion des abonnements (via RevenueCat)"
+          }
+        </li>
+        <li>
+          {
+            "Données d'analyse anonymisées pour améliorer l'application (via PostHog)"
+          }
+        </li>
+        <li>
+          {"Données techniques anonymisées (type d'appareil, version iOS)"}
+        </li>
       </ul>
 
       <h2>5. Abonnements et paiements</h2>
@@ -74,32 +100,45 @@ export default function VocalCoachPrivacy() {
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
         <li>{"Un identifiant anonyme pour gérer votre abonnement"}</li>
         <li>{"L'historique de vos achats dans l'application"}</li>
-        <li>{"Aucune information de paiement (gérée directement par Apple)"}</li>
+        <li>
+          {"Aucune information de paiement (gérée directement par Apple)"}
+        </li>
       </ul>
       <p>
         {`Pour plus d'informations, consultez la `}
-        <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.revenuecat.com/privacy"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           politique de confidentialité de RevenueCat
-        </a>.
+        </a>
+        .
       </p>
 
       <h2>6. Services tiers</h2>
-      <p>
-        {`Notre application utilise les services tiers suivants :`}
-      </p>
+      <p>{`Notre application utilise les services tiers suivants :`}</p>
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
         <li>
           <strong>Apple Speech Framework</strong>
           {" — pour la transcription vocale (soumis à la "}
-          <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">
-            politique de confidentialité d'Apple
+          <a
+            href="https://www.apple.com/legal/privacy/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {"politique de confidentialité d'Apple"}
           </a>
           {")"}
         </li>
         <li>
           <strong>RevenueCat</strong>
           {" — pour la gestion des abonnements ("}
-          <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.revenuecat.com/privacy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             politique de confidentialité
           </a>
           {")"}
@@ -107,7 +146,11 @@ export default function VocalCoachPrivacy() {
         <li>
           <strong>PostHog</strong>
           {" — pour l'analyse d'utilisation anonymisée ("}
-          <a href="https://posthog.com/privacy" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://posthog.com/privacy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             politique de confidentialité
           </a>
           {")"}
@@ -115,7 +158,11 @@ export default function VocalCoachPrivacy() {
         <li>
           <strong>Firebase Authentication</strong>
           {" — pour l'authentification anonyme sécurisée ("}
-          <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://firebase.google.com/support/privacy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             politique de confidentialité
           </a>
           {")"}
@@ -128,7 +175,11 @@ export default function VocalCoachPrivacy() {
         personnelles à des tiers, sauf dans les cas suivants :`}
       </p>
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
-        <li>{"Avec les services tiers mentionnés ci-dessus, dans le cadre de leur fonction"}</li>
+        <li>
+          {
+            "Avec les services tiers mentionnés ci-dessus, dans le cadre de leur fonction"
+          }
+        </li>
         <li>Avec votre consentement explicite</li>
         <li>Pour respecter une obligation légale</li>
         <li>Pour protéger nos droits ou votre sécurité</li>
@@ -145,7 +196,11 @@ export default function VocalCoachPrivacy() {
       <h2>9. Vos droits</h2>
       <p>Vous avez le droit de :</p>
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
-        <li>{"Supprimer tous vos enregistrements et données depuis l'application (Réglages > Réinitialiser)"}</li>
+        <li>
+          {
+            "Supprimer tous vos enregistrements et données depuis l'application (Réglages > Réinitialiser)"
+          }
+        </li>
         <li>{"Accéder à vos données personnelles"}</li>
         <li>{"Demander la portabilité de vos données"}</li>
         <li>{"Retirer votre consentement à tout moment"}</li>
