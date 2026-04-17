@@ -342,6 +342,38 @@ export default function AppsPage() {
         </div>
 
         <div className="app-card">
+          <h3>Nervine</h3>
+          <p>
+            Daily somatic exercises to quiet your nervous system. Voice-guided
+            practices backed by neuroscience for stress, burnout, anxiety, and
+            better sleep. 30+ exercises, structured programs, and before/after
+            check-ins.
+          </p>
+          <div className="features-grid">
+            <div className="feature-item">
+              <div className="feature-icon">🧠</div>
+              <h4>30+ Exercises</h4>
+              <p>Vagal toning, breathwork, grounding, and more</p>
+            </div>
+            <div className="feature-item">
+              <div className="feature-icon">🎙️</div>
+              <h4>Voice Guided</h4>
+              <p>Close your eyes and follow along</p>
+            </div>
+            <div className="feature-item">
+              <div className="feature-icon">⚡</div>
+              <h4>Instant Relief</h4>
+              <p>Tell the app how you feel, get matched</p>
+            </div>
+          </div>
+          <div className="app-links">
+            <a href="/apps/nervine" className="btn">
+              Discover Nervine
+            </a>
+          </div>
+        </div>
+
+        <div className="app-card">
           <h3>Breathly</h3>
           <p>
             Guided breathing exercises for stress relief, better sleep, sharper

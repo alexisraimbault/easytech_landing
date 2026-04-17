@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const metadata = {
   title: "AI Spiritual Readings - Tarot, Horoscope, Palm & More",
   description:
@@ -19,7 +21,7 @@ export default function AISpiritualReadingsApp() {
             className="store-badge"
             aria-label="Download on the App Store"
           >
-            <img
+            <Image
               src="/app-store.png"
               alt="Download on the App Store"
               width={170}
