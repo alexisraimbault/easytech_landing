@@ -374,6 +374,69 @@ export default function AppsPage() {
         </div>
 
         <div className="app-card">
+          <h3>Ginkgo</h3>
+          <p>
+            Gentle tai chi for balance, fall prevention, and confident steps.
+            38 video-guided exercises, daily routines from 5 to 15 minutes,
+            and structured programs — CDC-recommended for adults 50+.
+          </p>
+          <div className="features-grid">
+            <div className="feature-item">
+              <div className="feature-icon">🌿</div>
+              <h4>38 Exercises</h4>
+              <p>Stances, balance, walking forms, and more</p>
+            </div>
+            <div className="feature-item">
+              <div className="feature-icon">▶️</div>
+              <h4>Daily Routines</h4>
+              <p>5 to 15-minute video-guided sessions</p>
+            </div>
+            <div className="feature-item">
+              <div className="feature-icon">🪑</div>
+              <h4>Chair-Friendly</h4>
+              <p>Every exercise has a seated option</p>
+            </div>
+          </div>
+          <div className="app-links">
+            <a href="/apps/ginkgo" className="btn">
+              Discover Ginkgo
+            </a>
+          </div>
+        </div>
+
+        <div className="app-card">
+          <h3>Second Spring</h3>
+          <p>
+            Tai chi for your body&apos;s next chapter. 40 exercises, 8 routines,
+            and 5 programs for hot flashes, sleep, mood, bone health, and
+            pelvic care — designed for perimenopause, menopause, and
+            postmenopause.
+          </p>
+          <div className="features-grid">
+            <div className="feature-item">
+              <div className="feature-icon">💧</div>
+              <h4>Hot Flash Relief</h4>
+              <p>A 5-minute cooling practice, ready when you need it</p>
+            </div>
+            <div className="feature-item">
+              <div className="feature-icon">🌙</div>
+              <h4>Reclaim Sleep</h4>
+              <p>21-day evening program for better rest</p>
+            </div>
+            <div className="feature-item">
+              <div className="feature-icon">🦴</div>
+              <h4>Bone Builder</h4>
+              <p>Weight-bearing tai chi for postmenopausal bone health</p>
+            </div>
+          </div>
+          <div className="app-links">
+            <a href="/apps/second-spring" className="btn">
+              Discover Second Spring
+            </a>
+          </div>
+        </div>
+
+        <div className="app-card">
           <h3>Breathly</h3>
           <p>
             Guided breathing exercises for stress relief, better sleep, sharper
