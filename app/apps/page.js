@@ -21,6 +21,38 @@ export default function AppsPage() {
 
       <section className="apps-section">
         <div className="app-card">
+          <h3>Cadent</h3>
+          <p>
+            The Japanese Walking Method, guided. Calibrated brisk/easy
+            intervals with live cadence, voice or chime cues, and Apple Health
+            integration — backed by the Nemoto et al. interval-walking
+            protocol.
+          </p>
+          <div className="features-grid">
+            <div className="feature-item">
+              <div className="feature-icon">🚶</div>
+              <h4>Calibrated Pace</h4>
+              <p>Brisk target derived from your own walking cadence</p>
+            </div>
+            <div className="feature-item">
+              <div className="feature-icon">⏱️</div>
+              <h4>Live Cadence</h4>
+              <p>Real-time steps-per-minute with in-zone feedback</p>
+            </div>
+            <div className="feature-item">
+              <div className="feature-icon">❤️</div>
+              <h4>Apple Health</h4>
+              <p>Sessions saved as walking workouts on your iPhone</p>
+            </div>
+          </div>
+          <div className="app-links">
+            <a href="/apps/cadent" className="btn">
+              Discover Cadent
+            </a>
+          </div>
+        </div>
+
+        <div className="app-card">
           <h3>Hibi</h3>
           <div className="app-visual">
             <Image
