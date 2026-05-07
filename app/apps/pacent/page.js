@@ -1,23 +1,23 @@
 import Image from "next/image";
 
 export const metadata = {
-  title: "Cadent — Japanese Walking Method",
+  title: "Pacent — Japanese Walking Method",
   description:
-    "Walk smarter, not longer. Cadent guides you through Interval Walking Training (the Japanese Walking Method) with live cadence, audio cues, and a calibrated pace built from your own walk.",
+    "Walk smarter, not longer. Pacent guides you through Interval Walking Training (the Japanese Walking Method) with live cadence, audio cues, and a calibrated pace built from your own walk.",
 };
 
-export default function CadentApp() {
+export default function PacentApp() {
   return (
     <div>
       <section className="hero">
         <span className="btn-pill">iOS App</span>
         <h2>
-          <span className="hero-accent">Cadent</span>
+          <span className="hero-accent">Pacent</span>
         </h2>
         <p>The Japanese Walking Method, guided.</p>
         <div className="download-badges">
           <a
-            href="https://apps.apple.com/app/cadent/id000000000"
+            href="https://apps.apple.com/app/pacent/id000000000"
             className="store-badge"
             aria-label="Download on the App Store"
           >
@@ -33,14 +33,14 @@ export default function CadentApp() {
       </section>
 
       <section className="app-card">
-        <h3>About Cadent</h3>
+        <h3>About Pacent</h3>
         <p>
-          Cadent guides you through Interval Walking Training — the protocol
+          Pacent guides you through Interval Walking Training — the protocol
           known in Japan as the Japanese Walking Method. Alternate 3 minutes of
           brisk walking with 3 minutes of easy walking, repeated five times,
           four days a week. The original Shinshu University study by Nemoto et
           al. found measurable gains in aerobic capacity, leg strength, and
-          blood pressure where ordinary walking did not. Cadent calibrates your
+          blood pressure where ordinary walking did not. Pacent calibrates your
           fast and slow pace from a real walk on your phone, then drives the
           intervals with live cadence, audio cues, and haptics — so all you
           have to do is step out the door.
@@ -52,7 +52,7 @@ export default function CadentApp() {
           <div className="feature-icon">🚶</div>
           <h4>Calibrated to You</h4>
           <p>
-            Walk normally for a moment during onboarding — Cadent measures your
+            Walk normally for a moment during onboarding — Pacent measures your
             cadence and derives a brisk target you can actually hit
           </p>
         </div>
@@ -101,7 +101,7 @@ export default function CadentApp() {
       <section className="contact-info">
         <h3>Support &amp; Contact</h3>
         <p>
-          Have questions about Cadent? We&apos;d love to hear from you.
+          Have questions about Pacent? We&apos;d love to hear from you.
           <br />
           <a href="mailto:contact@easytech-agency.net">
             contact@easytech-agency.net
@@ -118,10 +118,10 @@ export default function CadentApp() {
           terms of use.
         </p>
         <div className="app-links">
-          <a href="/privacy/cadent" className="btn btn-secondary">
+          <a href="/privacy/pacent" className="btn btn-secondary">
             Privacy Policy
           </a>
-          <a href="/terms/cadent" className="btn btn-secondary">
+          <a href="/terms/pacent" className="btn btn-secondary">
             Terms of Use
           </a>
         </div>

@@ -21,7 +21,7 @@ export default function AppsPage() {
 
       <section className="apps-section">
         <div className="app-card">
-          <h3>Cadent</h3>
+          <h3>Pacent</h3>
           <p>
             The Japanese Walking Method, guided. Calibrated brisk/easy
             intervals with live cadence, voice or chime cues, and Apple Health
@@ -46,8 +46,8 @@ export default function AppsPage() {
             </div>
           </div>
           <div className="app-links">
-            <a href="/apps/cadent" className="btn">
-              Discover Cadent
+            <a href="/apps/pacent" className="btn">
+              Discover Pacent
             </a>
           </div>
         </div>

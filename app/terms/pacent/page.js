@@ -1,22 +1,22 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Terms of Use - Cadent: Japanese Walking Method",
+  title: "Terms of Use - Pacent: Japanese Walking Method",
   description:
-    "Terms of Use for the Cadent: Japanese Walking Method application by EasyTech Agency",
+    "Terms of Use for the Pacent: Japanese Walking Method application by EasyTech Agency",
 };
 
-export default function CadentTerms() {
+export default function PacentTerms() {
   return (
     <div className="legal-content">
-      <h1>Terms of Use - Cadent: Japanese Walking Method</h1>
+      <h1>Terms of Use - Pacent: Japanese Walking Method</h1>
       <p>
         <strong>Last updated:</strong> May 6, 2026
       </p>
 
       <h2>1. Acceptance of Terms</h2>
       <p>
-        {`By downloading, installing, or using the Cadent: Japanese Walking
+        {`By downloading, installing, or using the Pacent: Japanese Walking
         Method application ("the App"), you agree to be bound by these Terms
         of Use ("Terms"). If you do not agree to these Terms, do not use the
         App.`}
@@ -24,7 +24,7 @@ export default function CadentTerms() {
 
       <h2>2. Description of Service</h2>
       <p>
-        {`Cadent is a mobile application that guides you through Interval
+        {`Pacent is a mobile application that guides you through Interval
         Walking Training (also known as the Japanese Walking Method): a
         repeating sequence of brisk-walk and easy-walk intervals based on the
         protocol described by Nemoto et al. (Shinshu University). The App
@@ -43,7 +43,7 @@ export default function CadentTerms() {
 
       <h2>4. Subscriptions and Purchases</h2>
       <p>
-        {`Cadent requires a subscription to access its full content. A free
+        {`Pacent requires a subscription to access its full content. A free
         trial may be available for new users:`}
       </p>
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
@@ -93,7 +93,7 @@ export default function CadentTerms() {
 
       <h2>7. Disclaimers — Health, Fitness &amp; Safety</h2>
       <p>
-        {`The App is provided "as is" without warranty of any kind. Cadent is a
+        {`The App is provided "as is" without warranty of any kind. Pacent is a
         general fitness aid for self-paced interval walking. The App:`}
       </p>
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
@@ -176,8 +176,8 @@ export default function CadentTerms() {
       </p>
 
       <div style={{ marginTop: "3rem", textAlign: "center" }}>
-        <Link href="/apps/cadent" className="btn">
-          Back to Cadent
+        <Link href="/apps/pacent" className="btn">
+          Back to Pacent
         </Link>
       </div>
     </div>

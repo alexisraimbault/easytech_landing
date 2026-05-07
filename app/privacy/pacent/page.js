@@ -1,28 +1,28 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Privacy Policy - Cadent: Japanese Walking Method",
+  title: "Privacy Policy - Pacent: Japanese Walking Method",
   description:
-    "Privacy Policy for the Cadent: Japanese Walking Method application by EasyTech Agency",
+    "Privacy Policy for the Pacent: Japanese Walking Method application by EasyTech Agency",
 };
 
-export default function CadentPrivacy() {
+export default function PacentPrivacy() {
   return (
     <div className="legal-content">
-      <h1>Privacy Policy - Cadent: Japanese Walking Method</h1>
+      <h1>Privacy Policy - Pacent: Japanese Walking Method</h1>
       <p>
         <strong>Last updated:</strong> May 6, 2026
       </p>
 
       <h2>1. Introduction</h2>
       <p>
-        {`EasyTech Agency ("we," "our," or "us") operates the Cadent: Japanese
+        {`EasyTech Agency ("we," "our," or "us") operates the Pacent: Japanese
         Walking Method mobile application (the "Service" or "App"). This page
         informs you of our policies regarding the collection, use, and
         disclosure of personal data when you use our Service.`}
       </p>
       <p>
-        Cadent is built on a privacy-first principle:{" "}
+        Pacent is built on a privacy-first principle:{" "}
         <strong>
           your profile, calibration, session history, and progress data stay on
           your device.
@@ -60,18 +60,18 @@ export default function CadentPrivacy() {
 
       <h3>2.2 Motion &amp; Fitness (CoreMotion)</h3>
       <p>
-        Cadent reads motion data from the iPhone&apos;s built-in pedometer and
+        Pacent reads motion data from the iPhone&apos;s built-in pedometer and
         motion sensors during a session in order to count steps, measure
         distance, and compute your live cadence. This data is processed on
         device in real time and is not transmitted to our servers. iOS will
         prompt you to grant Motion &amp; Fitness access on first session; you
         can revoke it at any time in iOS Settings → Privacy &amp; Security →
-        Motion &amp; Fitness → Cadent.
+        Motion &amp; Fitness → Pacent.
       </p>
 
       <h3>2.3 Apple Health (HealthKit)</h3>
       <p>
-        With your permission, Cadent integrates with Apple Health:
+        With your permission, Pacent integrates with Apple Health:
       </p>
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
         <li>
@@ -90,7 +90,7 @@ export default function CadentPrivacy() {
           HealthKit data is never sent to our servers, never shared with third
           parties, and never used for advertising. You may revoke any
           permission at any time in iOS Settings → Health → Data Access &amp;
-          Devices → Cadent.
+          Devices → Pacent.
         </li>
       </ul>
 
@@ -159,7 +159,7 @@ export default function CadentPrivacy() {
 
       <h2>5. Advertising Attribution (App Tracking Transparency)</h2>
       <p>
-        Cadent uses the TikTok Business SDK to measure which advertising
+        Pacent uses the TikTok Business SDK to measure which advertising
         channels help people discover the App. This is a tracking SDK as
         defined by Apple, and it is governed by Apple&apos;s App Tracking
         Transparency framework.
@@ -177,7 +177,7 @@ export default function CadentPrivacy() {
         </li>
         <li>
           You can change your decision at any time in iOS Settings → Privacy
-          &amp; Security → Tracking → Cadent.
+          &amp; Security → Tracking → Pacent.
         </li>
       </ul>
       <p>
@@ -246,7 +246,7 @@ export default function CadentPrivacy() {
 
       <h2>10. Health Disclaimer</h2>
       <p>
-        Cadent is a fitness aid, not a medical device. The data it displays is
+        Pacent is a fitness aid, not a medical device. The data it displays is
         an estimate based on consumer-grade phone sensors and should not be
         used for medical decision-making. See our Terms of Use for the full
         health disclaimer.
@@ -269,8 +269,8 @@ export default function CadentPrivacy() {
       </p>
 
       <div style={{ marginTop: "3rem", textAlign: "center" }}>
-        <Link href="/apps/cadent" className="btn">
-          Back to Cadent
+        <Link href="/apps/pacent" className="btn">
+          Back to Pacent
         </Link>
       </div>
     </div>
