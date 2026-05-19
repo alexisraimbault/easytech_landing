@@ -26,13 +26,18 @@ export default function WorldMonitorPrivacy() {
 
       <h3>2.1 Locally Stored Data</h3>
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
-        <li>Your alert preferences (categories, thresholds, optional center coordinates and radius)</li>
-        <li>App settings and last-seen event identifiers (for de-duplication)</li>
+        <li>
+          Your alert preferences (categories, thresholds, optional center
+          coordinates and radius)
+        </li>
+        <li>
+          App settings and last-seen event identifiers (for de-duplication)
+        </li>
         <li>The categories you choose to display on the map</li>
       </ul>
       <p>
-        This data is also synced to our backend so we can deliver the right
-        push notifications to your device. See section 2.3.
+        This data is also synced to our backend so we can deliver the right push
+        notifications to your device. See section 2.3.
       </p>
 
       <h3>2.2 Location Data</h3>
@@ -52,8 +57,14 @@ export default function WorldMonitorPrivacy() {
       </p>
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
         <li>Your Apple Push Notification (APNs) device token</li>
-        <li>Your device locale (e.g. "en-US") to localize the notification text</li>
-        <li>Your alert rules (category, threshold, optional center + radius)</li>
+        <li>
+          {
+            'Your device locale (e.g. "en-US") to localize the notification text'
+          }
+        </li>
+        <li>
+          Your alert rules (category, threshold, optional center + radius)
+        </li>
         <li>A flag indicating whether you have a Pro subscription</li>
         <li>Timestamps for record-keeping (created, updated)</li>
       </ul>
@@ -67,9 +78,9 @@ export default function WorldMonitorPrivacy() {
       <p>
         Event data shown in the App is fetched from public sources: the U.S.
         Geological Survey (USGS), NASA Earth Observatory Natural Event Tracker
-        (EONET), the National Oceanic and Atmospheric Administration (NOAA),
-        and the Global Disaster Alert and Coordination System (GDACS). This
-        data is public and does not identify you in any way.
+        (EONET), the National Oceanic and Atmospheric Administration (NOAA), and
+        the Global Disaster Alert and Coordination System (GDACS). This data is
+        public and does not identify you in any way.
       </p>
 
       <h2>3. Subscriptions and Payments</h2>
@@ -98,10 +109,10 @@ export default function WorldMonitorPrivacy() {
       <p>
         We collect anonymized usage analytics through PostHog to improve the
         App, such as which features are used, onboarding completion rates, and
-        app performance metrics. We also use the TikTok Business SDK to
-        measure ad performance — if you grant App Tracking Transparency
-        permission, an event is sent to TikTok when you complete onboarding or
-        start a subscription, so we can measure the effectiveness of ads.
+        app performance metrics. We also use the TikTok Business SDK to measure
+        ad performance — if you grant App Tracking Transparency permission, an
+        event is sent to TikTok when you complete onboarding or start a
+        subscription, so we can measure the effectiveness of ads.
       </p>
       <p>
         Analytics data is aggregated and cannot be used to identify individual
@@ -110,16 +121,16 @@ export default function WorldMonitorPrivacy() {
 
       <h2>5. Data Sharing</h2>
       <p>
-        We do not sell, trade, or transfer your data to third parties, except
-        in the following cases:
+        We do not sell, trade, or transfer your data to third parties, except in
+        the following cases:
       </p>
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
         <li>With your explicit consent</li>
         <li>To comply with a legal obligation</li>
         <li>
-          With infrastructure providers strictly necessary for operating the
-          App (Cloudflare, Apple Push Notification service, RevenueCat,
-          PostHog, TikTok) — under strict data processing agreements
+          With infrastructure providers strictly necessary for operating the App
+          (Cloudflare, Apple Push Notification service, RevenueCat, PostHog,
+          TikTok) — under strict data processing agreements
         </li>
       </ul>
 
@@ -142,9 +153,7 @@ export default function WorldMonitorPrivacy() {
         <li>Disable all alerts at any time in the Settings tab</li>
         <li>Revoke location or tracking permissions in iOS Settings</li>
         <li>Request manual deletion by contacting us</li>
-        <li>
-          Lodge a complaint with a supervisory authority (CNIL in France)
-        </li>
+        <li>Lodge a complaint with a supervisory authority (CNIL in France)</li>
       </ul>
 
       <h2>8. Children&apos;s Privacy</h2>
