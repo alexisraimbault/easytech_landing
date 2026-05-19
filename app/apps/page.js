@@ -53,6 +53,70 @@ export default function AppsPage() {
         </div>
 
         <div className="app-card">
+          <h3>Soulboard</h3>
+          <p>
+            Manifest the life you&apos;re calling in. AI-generated daily
+            affirmations, letters from your future self, shadow-work
+            journaling, and beautiful vision boards for your wallpaper,
+            stories, and home-screen widgets.
+          </p>
+          <div className="features-grid">
+            <div className="feature-item">
+              <div className="feature-icon">✨</div>
+              <h4>Daily Affirmation</h4>
+              <p>A soft, hand-written line every morning — tuned to your intentions and tone</p>
+            </div>
+            <div className="feature-item">
+              <div className="feature-icon">💌</div>
+              <h4>Future-Self Letter</h4>
+              <p>Channel a heartfelt 5-year letter from who you&apos;re becoming</p>
+            </div>
+            <div className="feature-item">
+              <div className="feature-icon">🖼️</div>
+              <h4>Vision Boards</h4>
+              <p>Wallpaper, story, and widget templates — edge-to-edge, no chrome</p>
+            </div>
+          </div>
+          <div className="app-links">
+            <a href="/apps/soulboard" className="btn">
+              Discover Soulboard
+            </a>
+          </div>
+        </div>
+
+        <div className="app-card">
+          <h3>WorldMonitor</h3>
+          <p>
+            Real-time global disaster alerts. Earthquakes, wildfires,
+            volcanoes, storms, and floods sourced directly from USGS, NASA,
+            NOAA, and GDACS — with per-rule push notifications and 7-language
+            localization.
+          </p>
+          <div className="features-grid">
+            <div className="feature-item">
+              <div className="feature-icon">🌍</div>
+              <h4>Multi-Hazard</h4>
+              <p>Earthquakes, wildfires, volcanoes, storms, floods</p>
+            </div>
+            <div className="feature-item">
+              <div className="feature-icon">📡</div>
+              <h4>Official Sources</h4>
+              <p>USGS, NASA, NOAA, GDACS — refreshed every 2 minutes</p>
+            </div>
+            <div className="feature-item">
+              <div className="feature-icon">🔔</div>
+              <h4>Custom Rules</h4>
+              <p>Per-category thresholds and proximity-based alerts</p>
+            </div>
+          </div>
+          <div className="app-links">
+            <a href="/apps/worldmonitor" className="btn">
+              Discover WorldMonitor
+            </a>
+          </div>
+        </div>
+
+        <div className="app-card">
           <h3>Hibi</h3>
           <div className="app-visual">
             <Image

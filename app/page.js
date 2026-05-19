@@ -218,6 +218,8 @@ export default function Home() {
             { icon: "📷", name: "ScanCode" },
             { icon: "🎨", name: "Widgetly" },
             { icon: "📖", name: "HolyVerse" },
+            { icon: "🌍", name: "WorldMonitor" },
+            { icon: "🌙", name: "Soulboard" },
           ].map((app) => (
             <div key={app.name} className="app-preview-tile">
               <div className="app-preview-icon">{app.icon}</div>
