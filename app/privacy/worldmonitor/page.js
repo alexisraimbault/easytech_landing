@@ -47,7 +47,10 @@ export default function WorldMonitorPrivacy() {
         in each alert rule. Your real-time location is not continuously tracked
         and is not transmitted unless you explicitly attach a radius to an
         alert rule (in which case the center coordinates are sent to our
-        backend as part of that rule).`}
+        backend as part of that rule). Any coordinates transmitted to our
+        backend are rounded to approximately one kilometre (two decimal places)
+        before they leave your device, so we only ever receive an approximate
+        location, never your precise position.`}
       </p>
 
       <h3>2.3 Backend-Stored Data</h3>
