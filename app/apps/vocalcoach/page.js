@@ -60,7 +60,7 @@ export default function ClarionApp() {
             <h4>Daily Rep</h4>
             <p>
               A prompt picked for your goal, a short take, and feedback in
-              seconds. One a day is free
+              seconds
             </p>
           </div>
           <div className="feature-item">
@@ -91,8 +91,8 @@ export default function ClarionApp() {
             <div className="feature-icon">🔒</div>
             <h4>Honest About Privacy</h4>
             <p>
-              No email or login. Free reps are analyzed on your phone; audio
-              sent for deeper feedback is not kept
+              No email or login. Your takes are transcribed on our server to
+              count every filler word, then not kept
             </p>
           </div>
         </div>
@@ -101,9 +101,8 @@ export default function ClarionApp() {
       <section className="app-card">
         <h3>Free and Pro</h3>
         <p>
-          The first stage of the path and one Daily rep a day are free. Pro
-          unlocks the rest of the path, Mock interviews, Talk run-throughs and
-          word-for-word coaching. Clarion analyzes English speech.
+          Your first 3 levels are free. Pro unlocks the rest of the path, the
+          Daily rep, Mock interviews, Talk run-throughs and written coaching. Clarion analyzes English speech.
         </p>
       </section>
 

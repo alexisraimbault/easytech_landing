@@ -11,7 +11,7 @@ export default function ClarionTerms() {
     <div className="legal-content">
       <h1>Terms of Use - Clarion: Speaking Practice</h1>
       <p>
-        <strong>Last updated:</strong> October 8, 2026
+        <strong>Last updated:</strong> October 9, 2026
       </p>
 
       <h2>1. Acceptance of Terms</h2>
@@ -43,7 +43,7 @@ export default function ClarionTerms() {
 
       <h2>4. Subscriptions and Purchases</h2>
       <p>
-        {`Clarion offers free features (including a free Daily rep) and premium
+        {`Clarion offers free features (including your first 3 levels) and premium
         features ("Pro") available through an auto-renewing
         subscription purchased through Apple:`}
       </p>

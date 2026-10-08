@@ -11,7 +11,7 @@ export default function ClarionPrivacy() {
     <div className="legal-content">
       <h1>Privacy Policy - Clarion: Speaking Practice</h1>
       <p>
-        <strong>Last updated:</strong> October 8, 2026
+        <strong>Last updated:</strong> October 9, 2026
       </p>
 
       <h2>1. Introduction</h2>
@@ -23,15 +23,16 @@ export default function ClarionPrivacy() {
       </p>
       <p>
         In short: <strong>you never create an account with your email or
-        name.</strong> Free Daily reps are analyzed on your device and only
-        their transcript text goes to our server. Some features send your
-        recording to our server for deeper feedback; it is transcribed and
-        judged, then <strong>not kept</strong>. We do not sell your data.
+        name.</strong> Your recorded takes, free or Pro, are sent to our
+        server to be transcribed word for word (so filler words like
+        &quot;um&quot; can be counted) and analyzed, then{" "}
+        <strong>not kept</strong>. Without a connection, takes are analyzed
+        on your device instead. We do not sell your data.
       </p>
       <p>
         This policy replaces the previous Vocal Coach policy. Unlike earlier
-        versions of the App, some features of Clarion send audio to our
-        server, as described in section 2.4.
+        versions of the App, Clarion sends your recorded takes to our server,
+        as described in section 2.4.
       </p>
 
       <h2>2. Data We Collect and How We Use It</h2>
@@ -54,10 +55,11 @@ export default function ClarionPrivacy() {
       <p>
         Clarion records your voice while you practice, with your permission
         (iOS microphone and speech recognition prompts). Your recording is
-        turned into words with timings by Apple&apos;s Speech framework. On
-        supported iPhones this happens on your device; when on-device
-        recognition is not available, Apple may process the audio on its
-        servers under{" "}
+        also turned into words with timings by Apple&apos;s Speech framework,
+        for live meters while you speak and as a fallback when our server
+        cannot be reached (section 2.4). On supported iPhones this happens on
+        your device; when on-device recognition is not available, Apple may
+        process the audio on its servers under{" "}
         <a
           href="https://www.apple.com/legal/privacy/"
           target="_blank"
@@ -65,8 +67,10 @@ export default function ClarionPrivacy() {
         >
           Apple&apos;s Privacy Policy
         </a>
-        . Pace, pauses, filler words, pitch and volume are measured on your
-        device.
+        . Pitch and volume are measured on your device. Without a
+        connection, pace, pauses and filler words are measured on your device
+        too, from Apple&apos;s words (filler words are then estimated, and the
+        App says so).
       </p>
 
       <h3>2.3 Text Sent to Our Server (no audio)</h3>
@@ -76,10 +80,11 @@ export default function ClarionPrivacy() {
       </p>
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
         <li>
-          <strong>Free Daily reps:</strong> the transcript of your take (the
-          words and their timings), the practice prompt and a few on-device
-          measurements, so that our server can judge things like whether you
-          made a clear point or gave a specific example.
+          <strong>Free path levels:</strong> after your take has been
+          transcribed (section 2.4), its transcript (the words and their
+          timings), the practice prompt and a few measurements, so that our
+          server can judge things like whether you made a clear point or gave
+          a specific example.
         </li>
         <li>
           <strong>Mock interview answers (Pro):</strong> the on-device
@@ -99,11 +104,18 @@ export default function ClarionPrivacy() {
         <li>
           <strong>The onboarding voice check</strong> (once per device): a
           short take of about 20 seconds (25 seconds at most), so you can see
-          your own real feedback before you start.
+          your own real feedback before you start, with filler words counted
+          from a word-for-word transcript.
         </li>
         <li>
-          <strong>Pro Daily reps</strong> (up to 2 minutes), for a
-          word-for-word transcript and written coaching.
+          <strong>Free path levels</strong> (your first 3 levels, up to 2
+          minutes a take): each take is transcribed word for word so filler
+          words can be counted; the analysis is then completed with the text
+          described in section 2.3.
+        </li>
+        <li>
+          <strong>Pro reps</strong> (path levels and Daily reps, up to 2
+          minutes), for a word-for-word transcript and written coaching.
         </li>
         <li>
           <strong>Pro Talk run-throughs</strong> of 2 minutes or less.
@@ -121,6 +133,10 @@ export default function ClarionPrivacy() {
         text-analysis service, and short coaching sentences (or, for the voice
         check, an improved version of your answer) are written by Google
         Gemini through Vertex AI. The results are sent back to your phone.
+        Takes are uploaded only if they contain some speech. If there is no
+        connection, or our server is unavailable, the take is not sent and is
+        analyzed on your device with Apple&apos;s speech recognition (section
+        2.2).
       </p>
       <p>
         <strong>
@@ -164,7 +180,9 @@ export default function ClarionPrivacy() {
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
         <li>
           Daily usage counters keyed by your anonymous UID and install
-          identifier (Google Cloud Firestore), used to enforce daily limits.
+          identifier (Google Cloud Firestore), used to enforce daily limits
+          (for example, the number of free takes transcribed each day). They
+          contain counts only, no content.
           They expire automatically after about two days.
         </li>
         <li>
