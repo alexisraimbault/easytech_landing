@@ -283,32 +283,32 @@ export default function AppsPage() {
         </div>
 
         <div className="app-card">
-          <h3>AI Debate Coach</h3>
+          <h3>Argue</h3>
           <p>
-            Sharpen your critical thinking with AI-powered exercises. Detect
-            logical fallacies, evaluate argument strength, and build reasoning
-            skills — all through quick, tap-based sessions.
+            A hot takes party game (formerly AI Debate Coach). Pass the phone,
+            argue your side out loud, and an AI judge with a real voice picks
+            the winner and tells you why.
           </p>
           <div className="features-grid">
             <div className="feature-item">
-              <div className="feature-icon">🔍</div>
-              <h4>Fallacy Detection</h4>
-              <p>Spot logical fallacies in AI-generated arguments</p>
+              <div className="feature-icon">📱</div>
+              <h4>Pass the Phone</h4>
+              <p>Party games for 2 to 8 players, or a 1v1</p>
             </div>
             <div className="feature-item">
-              <div className="feature-icon">⚖️</div>
-              <h4>Argument Analysis</h4>
-              <p>Compare arguments and pick the strongest one</p>
+              <div className="feature-icon">🃏</div>
+              <h4>600+ Takes</h4>
+              <p>12 decks, with a new season deck every 8 weeks</p>
             </div>
             <div className="feature-item">
-              <div className="feature-icon">🧠</div>
-              <h4>AI-Powered</h4>
-              <p>Unique exercises every time, with instant feedback</p>
+              <div className="feature-icon">🏆</div>
+              <h4>Seasons and Ranks</h4>
+              <p>Climb from Rookie to Legend, or spar solo vs the AI</p>
             </div>
           </div>
           <div className="app-links">
             <a href="/apps/debate-coach" className="btn">
-              Discover AI Debate Coach
+              Discover Argue
             </a>
           </div>
         </div>
