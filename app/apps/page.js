@@ -252,32 +252,32 @@ export default function AppsPage() {
         </div>
 
         <div className="app-card">
-          <h3>VocalCoach</h3>
+          <h3>Clarion</h3>
           <p>
-            Your personal AI-powered speaking coach. Get instant feedback on
-            pace, clarity, filler words, and more. Perfect for interviews,
-            presentations, and everyday communication.
+            Speaking practice on your own voice (formerly Vocal Coach). Short
+            reps, honest feedback in plain sentences, and a path of ten ranks
+            to climb, for interviews, presentations, and everyday confidence.
           </p>
           <div className="features-grid">
             <div className="feature-item">
-              <div className="feature-icon">🎤</div>
-              <h4>Speech Analysis</h4>
-              <p>Instant feedback on pace, clarity, and filler words</p>
+              <div className="feature-icon">☀️</div>
+              <h4>Daily Rep</h4>
+              <p>One free rep a day, with feedback in seconds</p>
             </div>
             <div className="feature-item">
               <div className="feature-icon">💼</div>
-              <h4>Practice Modes</h4>
-              <p>Interview prep, presentations, and pitch practice</p>
+              <h4>Mock Interview</h4>
+              <p>Maya asks, follows up, and debriefs your answers</p>
             </div>
             <div className="feature-item">
-              <div className="feature-icon">🔒</div>
-              <h4>100% Private</h4>
-              <p>All analysis on-device, your audio never leaves</p>
+              <div className="feature-icon">📈</div>
+              <h4>Progress</h4>
+              <p>Pace, fillers and pauses over time, plus talk run-throughs</p>
             </div>
           </div>
           <div className="app-links">
             <a href="/apps/vocalcoach" className="btn">
-              Discover VocalCoach
+              Discover Clarion
             </a>
           </div>
         </div>
