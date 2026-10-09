@@ -11,7 +11,7 @@ export default function PacentTerms() {
     <div className="legal-content">
       <h1>Terms of Use - Pacent: Japanese Walking Method</h1>
       <p>
-        <strong>Last updated:</strong> May 6, 2026
+        <strong>Last updated:</strong> October 9, 2026
       </p>
 
       <h2>1. Acceptance of Terms</h2>
@@ -43,8 +43,9 @@ export default function PacentTerms() {
 
       <h2>4. Subscriptions and Purchases</h2>
       <p>
-        {`Pacent requires a subscription to access its full content. A free
-        trial may be available for new users:`}
+        {`Without a subscription, walk 1 of your plan is free, once a day, and
+        can be repeated daily. Every walk after walk 1 requires a Pacent Pro
+        subscription. A free trial may be available for new users:`}
       </p>
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
         <li>Prices are displayed in the App and may vary by region</li>
@@ -62,8 +63,9 @@ export default function PacentTerms() {
         </li>
         <li>
           When the free trial expires without conversion, your profile,
-          calibration, and session history remain on your device. Access to
-          sessions resumes if you subscribe later.
+          calibration, and session history remain on your device. Walk 1 stays
+          free once a day, and the rest of your plan resumes if you subscribe
+          later.
         </li>
       </ul>
 
