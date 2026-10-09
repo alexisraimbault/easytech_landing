@@ -659,25 +659,26 @@ export default function AppsPage() {
         <div className="app-card">
           <h3>HolyVerse</h3>
           <p>
-            Start every day with beautiful scripture on your home screen. Daily
-            Bible verses, stunning widgets, notifications, and a thoughtfully
-            designed reading experience.
+            One Bible verse each morning, with a short reflection and a
+            prayer, on your Lock Screen and Home Screen. Read aloud, journeys
+            through the Christian year, the whole Bible offline and a prayer
+            journal. Scripture stays free.
           </p>
           <div className="features-grid">
             <div className="feature-item">
-              <div className="feature-icon">📖</div>
+              <div className="feature-icon">☀️</div>
               <h4>Daily Verse</h4>
-              <p>Hand-picked scripture every day</p>
+              <p>A verse for what you carry, with reflection and prayer</p>
             </div>
             <div className="feature-item">
-              <div className="feature-icon">📱</div>
-              <h4>Widgets</h4>
-              <p>Beautiful verse widgets for your screen</p>
+              <div className="feature-icon">📖</div>
+              <h4>Offline Bible</h4>
+              <p>KJV, WEB and BBE, with search and reading plans</p>
             </div>
             <div className="feature-item">
-              <div className="feature-icon">🔔</div>
-              <h4>Reminders</h4>
-              <p>Daily verse notifications</p>
+              <div className="feature-icon">🙏</div>
+              <h4>Prayer Journal</h4>
+              <p>Pray, mark answered, and keep it on a widget</p>
             </div>
           </div>
           <div className="app-links">

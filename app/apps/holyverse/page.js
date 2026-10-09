@@ -1,9 +1,9 @@
 import Image from "next/image";
 
 export const metadata = {
-  title: "HolyVerse - Bible Verse Widget",
+  title: "HolyVerse - Daily Bible Verse",
   description:
-    "Start every day with beautiful scripture delivered to your home screen. Daily verses, stunning widgets, and a thoughtful reading experience.",
+    "HolyVerse: one Bible verse each morning with a short reflection and a prayer, on your Lock Screen and Home Screen. Read aloud, journeys through the Christian year, the whole Bible offline and a prayer journal.",
 };
 
 export default function HolyVerseApp() {
@@ -14,10 +14,10 @@ export default function HolyVerseApp() {
         <h2>
           <span className="hero-accent">HolyVerse</span>
         </h2>
-        <p>Bible Verse Widget</p>
+        <p>Begin every day with God&apos;s Word.</p>
         <div className="download-badges">
           <a
-            href="https://apps.apple.com/us/app/holyverse-bible-verse-widget/id6758902864"
+            href="https://apps.apple.com/app/id6758902864"
             className="store-badge"
             aria-label="Download on the App Store"
           >
@@ -35,58 +35,80 @@ export default function HolyVerseApp() {
       <section className="app-card">
         <h3>About HolyVerse</h3>
         <p>
-          Start every day with beautiful scripture delivered to your home screen.
-          HolyVerse brings the Word of God to life with stunning widgets, daily
-          notifications, and a thoughtfully designed reading experience. Whether
-          you want a gentle morning reminder or a beautiful verse on your lock
-          screen, HolyVerse makes daily devotion effortless.
+          HolyVerse gives you one verse each morning, chosen for what you are
+          carrying, with a short reflection and a simple prayer. It waits on
+          your Lock Screen and Home Screen, turns over at midnight, and takes
+          two quiet minutes: read, pray, tap Amen. The reflections and prayers
+          are written for HolyVerse and always labelled, never presented as
+          Scripture.
         </p>
       </section>
 
-      <section className="features-grid">
-        <div className="feature-item">
-          <div className="feature-icon">📖</div>
-          <h4>Daily Verse</h4>
-          <p>
-            A hand-picked Bible verse every single day, chosen to inspire and
-            uplift
-          </p>
+      <section className="app-card">
+        <h3>What&apos;s Inside</h3>
+        <div className="features-grid">
+          <div className="feature-item">
+            <div className="feature-icon">☀️</div>
+            <h4>Your Daily Verse</h4>
+            <p>
+              A verse for what you carry, with a reflection and a prayer, from
+              408 hand-picked mornings that never repeat until you have seen
+              them all
+            </p>
+          </div>
+          <div className="feature-item">
+            <div className="feature-icon">🎧</div>
+            <h4>Read Aloud</h4>
+            <p>
+              Every daily verse read aloud in a warm voice, with the words lit
+              as they are read
+            </p>
+          </div>
+          <div className="feature-item">
+            <div className="feature-icon">🕯️</div>
+            <h4>Journeys</h4>
+            <p>
+              17 short journeys through comfort, strength and hope, and the
+              Christian year from Advent to Pentecost
+            </p>
+          </div>
+          <div className="feature-item">
+            <div className="feature-icon">📖</div>
+            <h4>The Whole Bible, Offline</h4>
+            <p>
+              King James Version, World English Bible and Bible in Basic
+              English, with search, highlights and free reading plans
+            </p>
+          </div>
+          <div className="feature-item">
+            <div className="feature-icon">🙏</div>
+            <h4>Prayer Journal</h4>
+            <p>
+              Keep the people and needs you pray for, tap when you have
+              prayed, and mark prayers as answered
+            </p>
+          </div>
+          <div className="feature-item">
+            <div className="feature-icon">📱</div>
+            <h4>Beautiful Widgets</h4>
+            <p>
+              Home Screen and Lock Screen widgets with illuminated initials and
+              classic serif type, plus a Praying for widget
+            </p>
+          </div>
         </div>
-        <div className="feature-item">
-          <div className="feature-icon">📱</div>
-          <h4>Beautiful Widgets</h4>
-          <p>
-            Stunning verse widgets for your home screen and lock screen
-          </p>
-        </div>
-        <div className="feature-item">
-          <div className="feature-icon">🔔</div>
-          <h4>Daily Notifications</h4>
-          <p>
-            Receive your daily verse as a gentle morning or evening reminder
-          </p>
-        </div>
-        <div className="feature-item">
-          <div className="feature-icon">❤️</div>
-          <h4>Save Favorites</h4>
-          <p>
-            Bookmark verses that speak to you and revisit them anytime
-          </p>
-        </div>
-        <div className="feature-item">
-          <div className="feature-icon">🎨</div>
-          <h4>Customizable</h4>
-          <p>
-            Choose from beautiful themes and styles for your widgets
-          </p>
-        </div>
-        <div className="feature-item">
-          <div className="feature-icon">📤</div>
-          <h4>Share Verses</h4>
-          <p>
-            Share beautifully formatted verses with friends and family
-          </p>
-        </div>
+      </section>
+
+      <section className="app-card">
+        <h3>Free and Premium</h3>
+        <p>
+          Scripture stays free: the whole Bible, the daily verse with its
+          reflection and prayer, saved verses, reading plans, memorization,
+          the prayer journal and widgets. HolyVerse Premium adds listening to
+          the daily verse, all 17 journeys, a second verse each day for what
+          you carry, and illuminated art for widgets and cards. Your verses,
+          prayers and writing stay on your phone. HolyVerse is in English.
+        </p>
       </section>
 
       <section className="contact-info">
