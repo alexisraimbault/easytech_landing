@@ -43,7 +43,7 @@ export default function ClarionTerms() {
 
       <h2>4. Subscriptions and Purchases</h2>
       <p>
-        {`Clarion offers free features (including your first 3 levels) and premium
+        {`Clarion offers free features (including your first level, one take a day) and premium
         features ("Pro") available through an auto-renewing
         subscription purchased through Apple:`}
       </p>

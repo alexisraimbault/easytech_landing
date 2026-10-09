@@ -108,8 +108,8 @@ export default function ClarionPrivacy() {
           from a word-for-word transcript.
         </li>
         <li>
-          <strong>Free path levels</strong> (your first 3 levels, up to 2
-          minutes a take): each take is transcribed word for word so filler
+          <strong>Free path level</strong> (your first level, one take a day,
+          up to 2 minutes a take): each take is transcribed word for word so filler
           words can be counted; the analysis is then completed with the text
           described in section 2.3.
         </li>

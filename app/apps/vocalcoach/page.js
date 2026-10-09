@@ -101,7 +101,7 @@ export default function ClarionApp() {
       <section className="app-card">
         <h3>Free and Pro</h3>
         <p>
-          Your first 3 levels are free. Pro unlocks the rest of the path, the
+          Your first level is free: one take a day. Pro unlocks the rest of the path, the
           Daily rep, Mock interviews, Talk run-throughs and written coaching. Clarion analyzes English speech.
         </p>
       </section>
