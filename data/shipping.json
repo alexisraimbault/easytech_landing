@@ -1,0 +1,287 @@
+{
+  "generatedAt": "2026-10-11",
+  "note": "Only entries with a verifiable date are listed. App release dates: Apple App Store lookup (first release date, US storefront), cross-checked against App Store Connect version creation dates (read-only API). Project start dates: first commit of each project's git history. Company date: French company register.",
+  "entries": [
+    {
+      "date": "2026-10-01",
+      "kind": "saas",
+      "title": "Work on Flightdeck starts",
+      "detail": "A financial cockpit whose indicators are computed from the text of the news.",
+      "slug": "flightdeck",
+      "source": {
+        "label": "First commit in the project's git history"
+      }
+    },
+    {
+      "date": "2026-09-08",
+      "kind": "saas",
+      "title": "Work on vusurplan starts",
+      "detail": "Turns a property developer's sales plans into an online sales space.",
+      "slug": "vusurplan",
+      "source": {
+        "label": "First commit in the project's git history"
+      }
+    },
+    {
+      "date": "2026-08-06",
+      "kind": "saas",
+      "title": "Work on decko starts",
+      "detail": "AI-drafted presentation decks with editable slides and native .pptx export.",
+      "slug": "decko",
+      "source": {
+        "label": "First commit in the project's git history"
+      }
+    },
+    {
+      "date": "2026-05-23",
+      "kind": "app",
+      "title": "Soulboard is live on the App Store",
+      "detail": "Journal, Manifest & Widgets. Lifestyle.",
+      "slug": "soulboard",
+      "source": {
+        "label": "App Store first release date",
+        "url": "https://apps.apple.com/app/id6771404295"
+      }
+    },
+    {
+      "date": "2026-05-12",
+      "kind": "app",
+      "title": "Pacent is live on the App Store",
+      "detail": "Interval Steps & Pace Coach. Health & Fitness.",
+      "slug": "pacent",
+      "source": {
+        "label": "App Store first release date",
+        "url": "https://apps.apple.com/app/id6766979911"
+      }
+    },
+    {
+      "date": "2026-05-06",
+      "kind": "app",
+      "title": "Second Spring is live on the App Store",
+      "detail": "Tai Chi for Hot Flashes, Sleep. Health & Fitness.",
+      "slug": "second-spring",
+      "source": {
+        "label": "App Store first release date",
+        "url": "https://apps.apple.com/app/id6764407321"
+      }
+    },
+    {
+      "date": "2026-05-05",
+      "kind": "app",
+      "title": "Ninety is live on the App Store",
+      "detail": "75 Hard, Routine & Streak App. Health & Fitness.",
+      "slug": "ninety",
+      "source": {
+        "label": "App Store first release date",
+        "url": "https://apps.apple.com/app/id6766645333"
+      }
+    },
+    {
+      "date": "2026-05-01",
+      "kind": "app",
+      "title": "Ginkgo is live on the App Store",
+      "detail": "Fall Prevention & Qigong. Health & Fitness.",
+      "slug": "ginkgo",
+      "source": {
+        "label": "App Store first release date",
+        "url": "https://apps.apple.com/app/id6764406384"
+      }
+    },
+    {
+      "date": "2026-04-22",
+      "kind": "app",
+      "title": "Nervine is live on the App Store",
+      "detail": "Vagus Nerve & Stress Relief. Health & Fitness.",
+      "slug": "nervine",
+      "source": {
+        "label": "App Store first release date",
+        "url": "https://apps.apple.com/app/id6762467100"
+      }
+    },
+    {
+      "date": "2026-04-09",
+      "kind": "app",
+      "title": "Mapable is live on the App Store",
+      "detail": "AI Mind Map & Smart Notes. Productivity.",
+      "slug": "mapable",
+      "source": {
+        "label": "App Store first release date",
+        "url": "https://apps.apple.com/app/id6761822453"
+      }
+    },
+    {
+      "date": "2026-03-27",
+      "kind": "saas",
+      "title": "Work on Mapable starts",
+      "detail": "An AI notes and journal product. Its iOS app reached the App Store on 9 April 2026.",
+      "slug": "mapable",
+      "source": {
+        "label": "First commit in the project's git history"
+      }
+    },
+    {
+      "date": "2026-03-09",
+      "kind": "app",
+      "title": "Argue is live on the App Store",
+      "detail": "Master Logic & Win Arguments. Education.",
+      "slug": "debate-coach",
+      "source": {
+        "label": "App Store first release date",
+        "url": "https://apps.apple.com/app/id6759858462"
+      }
+    },
+    {
+      "date": "2026-03-09",
+      "kind": "app",
+      "title": "AI Nail Art is live on the App Store",
+      "detail": "Manicure Ideas & Nail Salon. Lifestyle.",
+      "slug": "ai-nail-design",
+      "source": {
+        "label": "App Store first release date",
+        "url": "https://apps.apple.com/app/id6760047935"
+      }
+    },
+    {
+      "date": "2026-02-24",
+      "kind": "app",
+      "title": "LightMeter Pro is live on the App Store",
+      "detail": "Exposure, PPFD & AI Analysis. Utilities.",
+      "slug": "lightmeter-pro",
+      "source": {
+        "label": "App Store first release date",
+        "url": "https://apps.apple.com/app/id6759503979"
+      }
+    },
+    {
+      "date": "2026-02-16",
+      "kind": "app",
+      "title": "Sculpt is live on the App Store",
+      "detail": "Jawline, Glow Up & Face Shape. Health & Fitness.",
+      "slug": "sculpt",
+      "source": {
+        "label": "App Store first release date",
+        "url": "https://apps.apple.com/app/id6759115699"
+      }
+    },
+    {
+      "date": "2026-02-16",
+      "kind": "app",
+      "title": "Clarion is live on the App Store",
+      "detail": "Speech & Interview Practice. Education.",
+      "slug": "vocalcoach",
+      "source": {
+        "label": "App Store first release date",
+        "url": "https://apps.apple.com/app/id6758733651"
+      }
+    },
+    {
+      "date": "2026-02-12",
+      "kind": "app",
+      "title": "Widgetly is live on the App Store",
+      "detail": "Aesthetic Widgets, Lock Screen. Utilities.",
+      "slug": "widgetly",
+      "source": {
+        "label": "App Store first release date",
+        "url": "https://apps.apple.com/app/id6758902941"
+      }
+    },
+    {
+      "date": "2026-02-12",
+      "kind": "app",
+      "title": "ScanCode is live on the App Store",
+      "detail": "Barcode Reader & QR Maker. Utilities.",
+      "slug": "scancode",
+      "source": {
+        "label": "App Store first release date",
+        "url": "https://apps.apple.com/app/id6758902839"
+      }
+    },
+    {
+      "date": "2026-02-12",
+      "kind": "app",
+      "title": "Compose is live on the App Store",
+      "detail": "Collage Widgets & Lock Screen. Photo & Video.",
+      "slug": "compose",
+      "source": {
+        "label": "App Store first release date",
+        "url": "https://apps.apple.com/app/id6758902820"
+      }
+    },
+    {
+      "date": "2026-02-12",
+      "kind": "app",
+      "title": "Breathly is live on the App Store",
+      "detail": "Stress Relief & Better Sleep. Health & Fitness.",
+      "slug": "breathly",
+      "source": {
+        "label": "App Store first release date",
+        "url": "https://apps.apple.com/app/id6758902787"
+      }
+    },
+    {
+      "date": "2026-02-09",
+      "kind": "app",
+      "title": "HolyVerse is live on the App Store",
+      "detail": "Daily Bible Quotes & Devotion. Reference.",
+      "slug": "holyverse",
+      "source": {
+        "label": "App Store first release date",
+        "url": "https://apps.apple.com/app/id6758902864"
+      }
+    },
+    {
+      "date": "2026-02-06",
+      "kind": "app",
+      "title": "PDF Marmot is live on the App Store",
+      "detail": "Photo Document Scanner & Merge. Productivity.",
+      "slug": "pdfmarmot",
+      "source": {
+        "label": "App Store first release date",
+        "url": "https://apps.apple.com/app/id6758716590"
+      }
+    },
+    {
+      "date": "2026-02-05",
+      "kind": "app",
+      "title": "Bento is live on the App Store",
+      "detail": "Don't Break the Chain. Lifestyle.",
+      "slug": "bento-streaks",
+      "source": {
+        "label": "App Store first release date",
+        "url": "https://apps.apple.com/app/id6758405749"
+      }
+    },
+    {
+      "date": "2026-02-05",
+      "kind": "app",
+      "title": "Aether is live on the App Store",
+      "detail": "Feel Close, Always Together. Lifestyle.",
+      "slug": "aether",
+      "source": {
+        "label": "App Store first release date",
+        "url": "https://apps.apple.com/app/id6758618836"
+      }
+    },
+    {
+      "date": "2025-11-26",
+      "kind": "app",
+      "title": "Hibi is live on the App Store",
+      "detail": "Atomic Habits & Daily Coaching. Productivity.",
+      "slug": "hibi",
+      "source": {
+        "label": "App Store first release date",
+        "url": "https://apps.apple.com/app/id6747954401"
+      }
+    },
+    {
+      "date": "2025-04-18",
+      "kind": "company",
+      "title": "EASYTECH is incorporated in Annecy",
+      "detail": "Registered as a French company (SASU) on 18 April 2025.",
+      "source": {
+        "label": "French company register (Annuaire des Entreprises)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/easytech-943638387"
+      }
+    }
+  ]
+}

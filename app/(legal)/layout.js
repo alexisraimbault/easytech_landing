@@ -1,14 +1,14 @@
+// LEGAL group: this layout and globals.css are the original site layout, moved
+// unchanged. Do not restyle: they wrap /privacy, /terms and /apps/<slug>, which
+// are referenced by App Store Connect. The favicon now comes from app/icon.svg.
 import "./globals.css";
 import Link from "next/link";
 
 export const metadata = {
-  title: "EasyTech — AI Infrastructure & Apps",
+  title: "EASYTECH — AI studio, Annecy",
   description:
-    "AI tech company building SaaS products, AI pipelines, autonomous agents, and mobile apps. Based in Annecy, France.",
-  icons: {
-    icon: "/hibi_icon.png",
-    apple: "/hibi_icon.png",
-  },
+    "EASYTECH is an AI studio based in Annecy, France. Apps and SaaS products, privacy policies and terms.",
+  metadataBase: new URL("https://www.easytech-agency.net"),
 };
 
 export default function RootLayout({ children }) {
