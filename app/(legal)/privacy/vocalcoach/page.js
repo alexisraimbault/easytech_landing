@@ -17,7 +17,8 @@ export default function ClarionPrivacy() {
       <h2>1. Introduction</h2>
       <p>
         {`EasyTech Agency ("we," "our," or "us") operates the Clarion mobile
-        application, formerly called Vocal Coach (the "Service" or "App").
+        application for iOS and Android, formerly called Vocal Coach (the
+        "Service" or "App").
         This page informs you of our policies regarding the collection, use,
         and disclosure of personal data when you use our Service.`}
       </p>
@@ -42,11 +43,13 @@ export default function ClarionPrivacy() {
         On first launch, the App signs you in silently with Firebase Anonymous
         Authentication (Google). This creates a random identifier (UID) for
         your installation. We never ask for your email, name, phone number or
-        a password, and the UID is not linked to your Apple ID. It is used to
+        a password, and the UID is not linked to your Apple ID or Google account. It is used to
         authenticate requests to our server, apply daily usage limits, link
         your subscription (RevenueCat) and group analytics events (PostHog).
         The App also creates a random install identifier, stored in your
-        device&apos;s Keychain, used only to make sure the one-time onboarding
+        device&apos;s Keychain (iOS) or in the App&apos;s private storage
+        (Android, where it is the only item included in Google backups),
+        used only to make sure the one-time onboarding
         voice check (section 2.4) runs once per device and to apply daily
         limits.
       </p>
@@ -54,7 +57,7 @@ export default function ClarionPrivacy() {
       <h3>2.2 Microphone and Speech Recognition</h3>
       <p>
         Clarion records your voice while you practice, with your permission
-        (iOS microphone and speech recognition prompts). Your recording is
+        (the microphone and, on iOS, speech recognition prompts). Your recording is
         also turned into words with timings by Apple&apos;s Speech framework,
         for live meters while you speak and as a fallback when our server
         cannot be reached (section 2.4). On supported iPhones this happens on
@@ -71,6 +74,14 @@ export default function ClarionPrivacy() {
         connection, pace, pauses and filler words are measured on your device
         too, from Apple&apos;s words (filler words are then estimated, and the
         App says so).
+      </p>
+
+      <p>
+        <strong>On Android</strong>, live words and the offline fallback use
+        your phone&apos;s on-device speech recognition service only. Clarion
+        asks Android for on-device recognition and never uses the
+        server-based recognizer, so the audio reaches our server (section
+        2.4) and nowhere else.
       </p>
 
       <h3>2.3 Text Sent to Our Server (no audio)</h3>
@@ -201,8 +212,8 @@ export default function ClarionPrivacy() {
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
         <li>
           Your recordings (the most recent reps, plus a few kept for &quot;your
-          voice then vs now&quot;). They are excluded from iCloud and device
-          backups, and older audio is deleted automatically.
+          voice then vs now&quot;). They are excluded from iCloud, Google and
+          device backups, and older audio is deleted automatically.
         </li>
         <li>
           Your progress: ranks, levels, stars, XP, skills, streaks and the
@@ -231,8 +242,8 @@ export default function ClarionPrivacy() {
 
       <h2>3. Subscriptions and Payments</h2>
       <p>
-        In-app purchases and subscriptions are processed by Apple and managed
-        through RevenueCat, a third-party service. RevenueCat may collect:
+        In-app purchases and subscriptions are processed by Apple (iOS) or
+        Google Play (Android) and managed through RevenueCat, a third-party service. RevenueCat may collect:
       </p>
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
         <li>
@@ -240,7 +251,9 @@ export default function ClarionPrivacy() {
           subscription
         </li>
         <li>Your in-app purchase history and subscription status</li>
-        <li>No payment information (handled directly by Apple)</li>
+        <li>
+          No payment information (handled directly by Apple or Google Play)
+        </li>
       </ul>
       <p>
         Our server asks RevenueCat whether your UID has an active Pro
@@ -277,7 +290,7 @@ export default function ClarionPrivacy() {
         .
       </p>
 
-      <h2>5. Advertising Attribution (App Tracking Transparency)</h2>
+      <h2>5. Advertising Attribution (App Tracking Transparency, Android advertising ID)</h2>
       <p>
         Clarion uses the TikTok Business SDK and the Meta (Facebook) SDK to
         measure which advertising campaigns help people discover the App. The
@@ -303,6 +316,17 @@ export default function ClarionPrivacy() {
           &amp; Security &gt; Tracking.
         </li>
       </ul>
+      <p>
+        <strong>On Android</strong>, the App first shows its own screen
+        explaining this measurement. Only if you tap Allow do the TikTok and
+        Meta SDKs start; they may then read your Android advertising ID and
+        send the events above, so we can measure which of our campaigns bring
+        installs and subscriptions. If you tap Not now, nothing is sent. The
+        App also reads the Google Play install referrer (the campaign tag of
+        the Play Store link used to install the App) for the same purpose. You
+        can reset or delete your advertising ID at any time in Android
+        Settings &gt; Privacy &gt; Ads. We do not show advertising in the App.
+      </p>
       <p>
         See the{" "}
         <a
@@ -370,7 +394,11 @@ export default function ClarionPrivacy() {
         </li>
         <li>
           <strong>Apple</strong>: speech recognition, purchases, App Tracking
-          Transparency
+          Transparency (iOS)
+        </li>
+        <li>
+          <strong>Google Play</strong>: purchases and the install referrer
+          (Android)
         </li>
         <li>
           <strong>RevenueCat</strong>: subscription management
@@ -445,7 +473,7 @@ export default function ClarionPrivacy() {
         <li>Object to or restrict processing</li>
         <li>
           Withdraw your consent at any time (microphone, speech recognition,
-          notifications and tracking can be changed in iOS Settings)
+          notifications and tracking can be changed in your device Settings)
         </li>
         <li>
           Lodge a complaint with a supervisory authority (CNIL in France)
