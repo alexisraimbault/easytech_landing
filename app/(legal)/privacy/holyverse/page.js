@@ -11,14 +11,14 @@ export default function HolyVersePrivacy() {
     <div className="legal-content">
       <h1>Privacy Policy - HolyVerse: Daily Bible Verse</h1>
       <p>
-        <strong>Last updated:</strong> October 9, 2026
+        <strong>Last updated:</strong> October 14, 2026
       </p>
 
       <h2>1. Introduction</h2>
       <p>
         {`EasyTech Agency ("we," "our," or "us") operates the HolyVerse: Daily
-        Bible Verse mobile application and its widgets (the "Service" or
-        "App"). This page informs you of our policies regarding the
+        Bible Verse mobile application for iOS and Android and its widgets
+        (the "Service" or "App"). This page informs you of our policies regarding the
         collection, use, and disclosure of personal data when you use our
         Service.`}
       </p>
@@ -34,7 +34,7 @@ export default function HolyVersePrivacy() {
       </p>
       <p>
         This policy replaces the previous HolyVerse policy and covers version
-        1.1.2 and later.
+        1.1.2 and later on iOS and version 1.2.0 and later on Android.
       </p>
 
       <h2>2. Data We Collect and How We Use It</h2>
@@ -45,7 +45,7 @@ export default function HolyVersePrivacy() {
         number or a password. Two random identifiers are created on your
         device by the services we use: one by RevenueCat to manage your
         subscription (section 3) and one by PostHog to group analytics events
-        (section 4). Neither is linked to your Apple ID, name or email.
+        (section 4). Neither is linked to your Apple ID or Google account, name or email.
       </p>
 
       <h3>2.2 Data Stored on Your Device Only</h3>
@@ -74,7 +74,10 @@ export default function HolyVersePrivacy() {
       <p>
         Like any app data, it may be included in the backups of your device
         that you make yourself (for example iCloud Backup or a computer
-        backup), under Apple&apos;s terms.
+        backup), under Apple&apos;s terms. On Android, the App does not take part
+        in Google backups or device-to-device transfers: this data is not copied
+        to your Google account, and it is gone if you uninstall the App or
+        change phone.
       </p>
 
       <h3>2.3 Widgets and App Groups</h3>
@@ -88,6 +91,13 @@ export default function HolyVersePrivacy() {
         never transmitted externally. Please note that anything a widget
         shows, including prayer requests, is visible to anyone who can see
         your screen.
+      </p>
+
+      <p>
+        On Android, the widgets read the same information from the App&apos;s
+        private storage on your phone instead of an App Group. It is not
+        transmitted externally either, and the same caution applies to what a
+        widget shows on your Home Screen.
       </p>
 
       <h3>2.4 Scripture, Narration and Art Are Built In</h3>
@@ -122,8 +132,8 @@ export default function HolyVersePrivacy() {
 
       <h2>3. Subscriptions and Payments</h2>
       <p>
-        In-app purchases and subscriptions are processed by Apple and managed
-        through RevenueCat, a third-party service. RevenueCat may collect:
+        In-app purchases and subscriptions are processed by Apple (iOS) or
+        Google Play (Android) and managed through RevenueCat, a third-party service. RevenueCat may collect:
       </p>
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
         <li>
@@ -131,7 +141,9 @@ export default function HolyVersePrivacy() {
           your subscription
         </li>
         <li>Your in-app purchase history and subscription status</li>
-        <li>No payment information (handled directly by Apple)</li>
+        <li>
+          No payment information (handled directly by Apple or Google Play)
+        </li>
       </ul>
       <p>
         For more information, see the{" "}
@@ -157,7 +169,7 @@ export default function HolyVersePrivacy() {
         and sharing a verse; journey, reading plan and memorization progress;
         widget style changes; and the number of results of a Bible search.
         PostHog also receives basic technical information such as the app
-        version, device model and iOS version. Events are linked to the
+        version, device model and iOS or Android version. Events are linked to the
         anonymous PostHog identifier, not to your name or email.
       </p>
       <p>
@@ -184,7 +196,7 @@ export default function HolyVersePrivacy() {
         settings, Apple may also share crash reports and diagnostics with us.
       </p>
 
-      <h2>5. Advertising Attribution (App Tracking Transparency)</h2>
+      <h2>5. Advertising Attribution (App Tracking Transparency, Android advertising ID)</h2>
       <p>
         HolyVerse includes the TikTok Business SDK and the Meta (Facebook) SDK
         to measure which advertising campaigns help people discover the App.
@@ -217,6 +229,18 @@ export default function HolyVersePrivacy() {
         </li>
       </ul>
       <p>
+        <strong>On Android</strong>, the TikTok and Meta SDKs start only if
+        our configuration asks for it and only after you tap Allow on
+        HolyVerse&apos;s own explanation screen. They may then read your
+        Android advertising ID and send the events above, so we can measure
+        which of our campaigns bring installs and subscriptions. If you tap
+        Not now, nothing is sent. Once per install, the App also reads the
+        Google Play install referrer (the campaign tag of the Play Store link
+        used to install it) and sends it to our analytics. You can reset or
+        delete your advertising ID at any time in Android Settings &gt;
+        Privacy &gt; Ads.
+      </p>
+      <p>
         See the{" "}
         <a
           href="https://www.tiktok.com/legal/page/global/privacy-policy/en"
@@ -244,7 +268,11 @@ export default function HolyVersePrivacy() {
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
         <li>
           <strong>Apple</strong>: purchases, notifications, widgets, App
-          Tracking Transparency
+          Tracking Transparency (iOS)
+        </li>
+        <li>
+          <strong>Google Play</strong>: purchases and the install referrer
+          (Android)
         </li>
         <li>
           <strong>RevenueCat</strong>: subscription management
@@ -291,7 +319,7 @@ export default function HolyVersePrivacy() {
       </ul>
       <p>
         When you share a verse card, it goes only where you choose through
-        the iOS share sheet.
+        the iOS or Android share sheet.
       </p>
 
       <h2>8. Data Retention</h2>
@@ -326,7 +354,7 @@ export default function HolyVersePrivacy() {
         <li>Object to or restrict processing</li>
         <li>
           Withdraw your consent at any time (notifications and tracking can
-          be changed in iOS Settings)
+          be changed in your device Settings)
         </li>
         <li>
           Lodge a complaint with a supervisory authority (CNIL in France)
