@@ -11,7 +11,7 @@ export default function BreathlyPrivacy() {
     <div className="legal-content">
       <h1>Privacy Policy - Breathly - Breathing Exercises</h1>
       <p>
-        <strong>Last updated:</strong> March 4, 2026
+        <strong>Last updated:</strong> October 14, 2026
       </p>
 
       <h2>1. Introduction</h2>
@@ -36,6 +36,8 @@ export default function BreathlyPrivacy() {
       </ul>
       <p>
         This data never leaves your device and is not transmitted to any server.
+        On Android, the app opts out of Google backups, so this data is not
+        copied to your Google account either; uninstalling the app removes it.
       </p>
 
       <h3>2.2 Widgets and App Groups</h3>
@@ -44,6 +46,7 @@ export default function BreathlyPrivacy() {
         data on your home screen. Widget data is shared between the App and its
         widgets via App Groups, an on-device mechanism provided by Apple. This
         data stays entirely on your device and is never transmitted externally.
+        Widgets and App Groups apply to the iOS app only.
       </p>
 
       <h2>3. Subscriptions and Payments</h2>
@@ -55,7 +58,12 @@ export default function BreathlyPrivacy() {
         <li>An anonymous identifier to manage your subscription</li>
         <li>Your in-app purchase history</li>
         <li>
-          No payment information (handled directly by Apple)
+          Basic device and app information (operating system, device model,
+          language, app version)
+        </li>
+        <li>
+          No payment information (handled directly by Apple on iOS and by
+          Google Play on Android)
         </li>
       </ul>
       <p>
@@ -72,17 +80,37 @@ export default function BreathlyPrivacy() {
 
       <h2>4. Analytics</h2>
       <p>
-        We may collect anonymized usage analytics to improve the App, such as:
+        We use PostHog (hosted in the European Union) to collect anonymized
+        usage analytics to improve the App, such as:
       </p>
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
         <li>Which breathing techniques are most popular</li>
         <li>Session completion rates</li>
         <li>App performance metrics</li>
-        <li>Device type and iOS version (anonymized)</li>
+        <li>
+          The goals you pick during onboarding and the choices you make when
+          personalizing the App
+        </li>
+        <li>Device type and operating system version (anonymized)</li>
       </ul>
+      <p>
+        These events are linked to a random anonymous identifier, never to
+        your name or email, because the App has no account. Your mood
+        check-ins, session history and streaks are not sent.
+      </p>
       <p>
         Analytics data is aggregated and cannot be used to identify individual
         users.
+      </p>
+
+      <h2>4.1 Android specifics</h2>
+      <p>
+        The Android version is sold through Google Play, and purchases are
+        handled by Google Play Billing. The App does not use the Android
+        advertising ID, contains no advertising and no advertising or
+        attribution SDK. It uses the notification permission only for the
+        optional daily reminder and the quiet notification shown while a
+        session is running.
       </p>
 
       <h2>5. Data Sharing</h2>
@@ -95,7 +123,8 @@ export default function BreathlyPrivacy() {
         <li>To comply with a legal obligation</li>
         <li>To protect our rights or your safety</li>
         <li>
-          With service providers who assist in operating the App (RevenueCat)
+          With service providers who assist in operating the App (RevenueCat for
+          subscriptions, PostHog for analytics)
           — under strict data processing agreements
         </li>
       </ul>
@@ -104,8 +133,9 @@ export default function BreathlyPrivacy() {
       <p>
         {`We take data security seriously. Your session and preference data is
         stored locally on your device and is protected by your device's built-in
-        security features. Subscription data is secured by Apple and
-        RevenueCat.`}
+        security features. Subscription data is secured by Apple or
+        Google Play and by RevenueCat. All data sent to our service providers
+        travels over HTTPS.`}
       </p>
 
       <h2>7. Your Rights</h2>
@@ -113,6 +143,10 @@ export default function BreathlyPrivacy() {
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
         <li>Access your personal data</li>
         <li>Delete your data by uninstalling the App</li>
+        <li>
+          Ask us to delete the anonymous analytics and subscription records
+          tied to your device, by writing to the address below
+        </li>
         <li>Withdraw your consent at any time</li>
         <li>Object to data processing</li>
         <li>
