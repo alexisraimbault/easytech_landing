@@ -11,12 +11,12 @@ export default function NomPrivacy() {
     <div className="legal-content">
       <h1>Privacy Policy - Nom: Cute Notes & Brain Dump</h1>
       <p>
-        <strong>Last updated:</strong> October 14, 2026
+        <strong>Last updated:</strong> October 15, 2026
       </p>
 
       <h2>1. Introduction</h2>
       <p>
-        {`EasyTech Agency (EASYTECH SASU, 2 rue de la Libération, 74000 Annecy, France; "we," "our," or "us") operates the Nom: Cute Notes & Brain Dump mobile application (the "Service" or "App"). Nom is a companion that keeps what is in your head: you dump thoughts, notes, to-dos, links and photos, Nom files them, reflects back, suggests tiny quests, and shows your day, your energy and your calendar. This page explains what data we collect, why, and how we handle it.`}
+        {`EasyTech Agency (EASYTECH SASU, 2 rue de la Libération, 74000 Annecy, France; "we," "our," or "us") operates the Nom: Cute Notes & Brain Dump mobile application, available on iOS and on Android (the "Service" or "App"). Nom is a companion that keeps what is in your head: you dump thoughts, notes, to-dos, links and photos, Nom files them, reflects back, suggests tiny quests, and shows your day, your energy and your calendar. This page explains what data we collect, why, and how we handle it.`}
       </p>
       <h2>2. Data We Collect</h2>
       <p>
@@ -25,12 +25,13 @@ export default function NomPrivacy() {
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
         <li>{`Content you add: notes, to-dos, journal entries, energy and mood check-ins, focus-timer minutes, links, photos and voice recordings. It is typed, dictated or added by you in the App, and stored on our servers so it can be filed, found again and answered about.`}</li>
         <li>{`Device settings sent with requests: your time zone and language, so dates and wording match your device.`}</li>
+        <li>{`Install source (Android only): when the App first opens, it reads the Google Play install referrer, a short campaign string that tells us which link or ad led to the install. It contains no personal data.`}</li>
         <li>{`Usage data: screens viewed and features used, collected with PostHog analytics (events are tied to the same anonymous identifier) to help us improve the App.`}</li>
-        <li>{`Subscription status: whether you hold an active subscription, handled by Apple and RevenueCat.`}</li>
-        <li>{`Calendar (optional): if you allow access, the App reads today's events on your device to show them next to your to-dos, and adds events you approve. Your calendar is read on the device and is never sent to our servers.`}</li>
+        <li>{`Subscription status: whether you hold an active subscription, handled by Apple or Google Play and by RevenueCat.`}</li>
+        <li>{`Calendar (optional): if you allow access, the App reads today's events on your device to show them next to your to-dos, and adds events you approve. Your calendar is read on the device and is never sent to our servers, except an event the App itself noticed in a note you wrote, which travels as the text of that note.`}</li>
       </ul>
       <p>
-        {`The App may also ask for access to your microphone and to speech recognition (to record a voice note or to type what you say), your photos (only the pictures you pick), and notifications (reminders you ask for). You can change each permission at any time in iOS Settings.`}
+        {`The App may also ask for access to your microphone and to speech recognition (to record a voice note or to type what you say), your photos (only the pictures you pick), and notifications (reminders you ask for). You can change each permission at any time in the Settings of your iPhone or Android phone.`}
       </p>
       <h2>3. How We Use Your Data</h2>
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
@@ -57,9 +58,9 @@ export default function NomPrivacy() {
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
         <li>{`Google Firebase Authentication: creates the anonymous identifier used to recognise your data.`}</li>
         <li>{`PostHog (EU): product analytics.`}</li>
-        <li>{`Apple and RevenueCat: process subscriptions. Payment is handled by Apple; RevenueCat receives your purchase status and the identifier needed to unlock your subscription. We never see your payment details.`}</li>
-        <li>{`TikTok and Meta (advertising measurement): only if you allow tracking when iOS asks, so that we can measure which ads brought you to the App. You can refuse, or change your choice in iOS Settings → Privacy & Security → Tracking. We never sell your data.`}</li>
-        <li>{`Apple speech recognition: when you dictate, iOS may process your speech under Apple's own privacy terms.`}</li>
+        <li>{`Apple, Google Play and RevenueCat: process subscriptions. Payment is handled by Apple on iOS and by Google Play on Android; RevenueCat receives your purchase status and the identifier needed to unlock your subscription. We never see your payment details.`}</li>
+        <li>{`TikTok and Meta (advertising measurement): only if you agree, so that we can measure which ads brought you to the App. On iOS, this is the tracking question iOS asks; you can change your choice in iOS Settings → Privacy & Security → Tracking. On Android, the App asks on its own screen before anything starts, and the measurement uses your Android advertising ID; you can refuse, and you can reset or delete that ID at any time in Android Settings → Privacy → Ads. If you refuse, none of these services starts. We never sell your data.`}</li>
+        <li>{`Speech recognition on your phone: when you dictate, iOS (Apple) or Android (Google) may process your speech under their own privacy terms.`}</li>
       </ul>
       <h2>6. Data Hosting and Transfers</h2>
       <p>
@@ -67,7 +68,7 @@ export default function NomPrivacy() {
       </p>
       <h2>7. Retention and Deletion</h2>
       <p>
-        {`We keep your data for as long as you use Nom. You can ask us to delete your data at any time by writing to contact@easytech-agency.net from the device concerned, mentioning the App; we delete your content and identifier within 30 days, except where the law requires us to keep something. Deleting the App from your device removes the local data stored on it, but not the content already stored on our servers.`}
+        {`We keep your data for as long as you use Nom. You can ask us to delete your data at any time by writing to contact@easytech-agency.net from the device concerned, mentioning the App; we delete your content and identifier within 30 days, except where the law requires us to keep something. Deleting the App from your device removes the local data stored on it, but not the content already stored on our servers. On Android, the App opts out of Google backups, so its local data is not copied to your Google account either.`}
       </p>
       <h2>8. Your Rights</h2>
       <p>

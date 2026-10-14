@@ -11,7 +11,7 @@ export default function NomTerms() {
     <div className="legal-content">
       <h1>Terms of Use - Nom: Cute Notes & Brain Dump</h1>
       <p>
-        <strong>Last updated:</strong> October 14, 2026
+        <strong>Last updated:</strong> October 15, 2026
       </p>
 
       <h2>1. Acceptance of Terms</h2>
@@ -24,18 +24,18 @@ export default function NomTerms() {
       </p>
       <h2>3. License</h2>
       <p>
-        {`EasyTech Agency grants you a limited, non-exclusive, non-transferable and revocable licence to use the App for personal, non-commercial purposes in accordance with these Terms. Apple's standard Licensed Application End User License Agreement (https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) also applies to the App.`}
+        {`EasyTech Agency grants you a limited, non-exclusive, non-transferable and revocable licence to use the App for personal, non-commercial purposes in accordance with these Terms. On iOS, Apple's standard Licensed Application End User License Agreement (https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) also applies to the App; on Android, the Google Play Terms of Service apply to your download and purchases.`}
       </p>
       <h2>4. Subscriptions and Purchases</h2>
       <p>
-        {`Nom can be used for free with limits. Nom Pro is an optional auto-renewing subscription, billed monthly or yearly through your Apple Account, that unlocks more of the App. The price and billing period are shown in the App before you subscribe. A free trial may be offered to new users.`}
+        {`Nom can be used for free with limits. Nom Pro is an optional auto-renewing subscription, billed monthly or yearly through your Apple Account (iOS) or your Google Play account (Android), that unlocks more of the App. The price and billing period are shown in the App before you subscribe. A free trial may be offered to new users.`}
       </p>
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
-        <li>{`Payment is charged to your Apple Account when you confirm the purchase.`}</li>
+        <li>{`Payment is charged to your Apple Account (iOS) or your Google Play payment method (Android) when you confirm the purchase.`}</li>
         <li>{`The subscription renews automatically unless you cancel at least 24 hours before the end of the current period; renewal is charged within 24 hours before the period ends.`}</li>
-        <li>{`You can manage or cancel your subscription at any time in Settings → Apple Account → Subscriptions.`}</li>
+        <li>{`You can manage or cancel your subscription at any time: on iOS in Settings → Apple Account → Subscriptions; on Android in the Google Play app → Profile → Payments & subscriptions → Subscriptions.`}</li>
         <li>{`If a free trial is offered, it converts to a paid subscription at the end of the trial unless you cancel first, and any unused part of a free trial is forfeited when you buy a subscription.`}</li>
-        <li>{`Refunds are handled by Apple, in accordance with Apple's policies.`}</li>
+        <li>{`Refunds are handled by Apple or Google Play, in accordance with their policies.`}</li>
       </ul>
       <h2>5. Your Content</h2>
       <p>
