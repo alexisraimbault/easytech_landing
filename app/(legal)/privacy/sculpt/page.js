@@ -55,8 +55,7 @@ export default function SculptPrivacy() {
           sticker sheet
         </li>
         <li>
-          Your settings (coach, voice, music, sound, haptics, appearance,
-          reminders)
+          Your settings (coach, voice, music, sound, haptics, reminders)
         </li>
         <li>
           Your birth year is used once to check that you are 18 or over and is
@@ -76,8 +75,8 @@ export default function SculptPrivacy() {
 
       <h3>3.1 Always (once you have confirmed you are an adult)</h3>
       <p>
-        Purchases and subscriptions go through Apple and RevenueCat (see
-        section 4). This is the only network activity the App needs to work.
+        Purchases and subscriptions go through Apple (iPhone) or Google Play
+        (Android) and RevenueCat (see section 4). This is the only network activity the App needs to work.
         Before you confirm your age, nothing is started.
       </p>
 
@@ -102,7 +101,7 @@ export default function SculptPrivacy() {
         request is not made and the ad networks are not started.
       </p>
 
-      <h3>3.4 Notifications, widgets, Live Activity and sharing</h3>
+      <h3>3.4 Notifications, widgets, session controls and sharing</h3>
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
         <li>
           Reminders (your daily reminder, the optional notes in your first two
@@ -110,15 +109,21 @@ export default function SculptPrivacy() {
           locally by your device. We do not operate a push-notification server.
         </li>
         <li>
-          The home and lock-screen widgets and the session Live Activity are
-          fed by data the App writes on your device (shared with the widget
-          through an Apple App Group). They are not sent anywhere.
+          On iPhone, the home and lock-screen widgets and the session Live
+          Activity are fed by data the App writes on your device (shared with
+          the widget through an Apple App Group). On Android, the home screen
+          widget is fed by data the App writes on your device, and while a
+          session runs the App shows an ongoing notification with Pause and
+          Resume. That notification comes from a foreground service of the
+          media playback type, which only keeps the guided audio and the
+          session timer running when the screen is off. It starts when you
+          start a session and stops when the session ends. Nothing in the
+          widgets, the Live Activity or the notification is sent anywhere.
         </li>
         <li>
           Share cards (for example your week strip) are images the App creates
-          on your device. They leave your device only if you choose to share
-          one through the iOS share sheet, and then they go where you send
-          them.
+          on your device. They leave your device only if you choose to share one through the
+          system share sheet, and then they go where you send them.
         </li>
       </ul>
 
@@ -127,8 +132,8 @@ export default function SculptPrivacy() {
         In-app purchases and subscriptions are managed by RevenueCat, a
         third-party service. RevenueCat receives an anonymous identifier
         generated for your installation and your purchase history, so that
-        Sculpt Pro can be unlocked and restored. Payment details are handled
-        directly by Apple and are never seen by us. See the{" "}
+        Sculpt Pro can be unlocked and restored. Payment details are handled directly by Apple (iPhone) or by Google
+        Play (Android) and are never seen by us. See the{" "}
         <a
           href="https://www.revenuecat.com/privacy"
           target="_blank"
@@ -148,10 +153,15 @@ export default function SculptPrivacy() {
         views, trial starts and purchases (plan and price), reminder permission
         results, and whether a share was completed. Events carry coarse
         identifiers only (step names, coach and program ids, minutes, plan
-        names), together with the App version and iOS version.
+        names), together with the App version and the operating system version (iOS or
+        Android).
       </p>
       <p>
-        The events are tied to the same anonymous RevenueCat identifier, and
+        On Android, if you allowed usage statistics, the App may also read the
+        Google Play Install Referrer once after installation (the campaign
+        link that led to the install, if any, and the click and install times)
+        and send it as a single event. The events are tied to the same
+        anonymous RevenueCat identifier, and
         RevenueCat is given the PostHog identifier, so that subscription
         outcomes can be matched to the same install. There is no email, name or
         account. PostHog also receives your IP address with each request, as
@@ -173,22 +183,30 @@ export default function SculptPrivacy() {
         .
       </p>
 
-      <h2>6. Advertising attribution (App Tracking Transparency)</h2>
+      <h2>6. Advertising attribution (App Tracking Transparency and the Android advertising ID)</h2>
       <p>
         Sculpt uses the TikTok Business SDK and the Meta SDK to measure which
-        advertising helps people discover the App. These are tracking SDKs as
-        defined by Apple, and they are governed by Apple&apos;s App Tracking
-        Transparency framework. They start only if you answered
-        &ldquo;Allow&rdquo; during setup and only when the ad networks are
-        enabled in our server configuration.
+        advertising helps people discover the App. On iPhone these are tracking SDKs as defined by Apple, governed by
+        Apple&apos;s App Tracking Transparency framework. On Android they use
+        the advertising ID of your device. On both, they start only if you
+        answered &ldquo;Allow&rdquo; during setup and only when the ad
+        networks are enabled in our server configuration.
       </p>
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
         <li>
-          The App explains this and then shows Apple&apos;s tracking permission
-          prompt. If you decline, no Apple advertising identifier is shared.
+          On iPhone, the App explains this and then shows Apple&apos;s
+          tracking permission prompt. If you decline, no Apple advertising
+          identifier is shared. On Android, which has no such system prompt,
+          the App shows its own screen asking whether Sculpt may use your
+          Android advertising ID. If you tap &ldquo;Not now&rdquo;, the ad
+          SDKs are not started and no advertising ID is shared. The App
+          declares the advertising ID permission
+          (com.google.android.gms.permission.AD_ID) and does not read the ID
+          before you tap &ldquo;Allow&rdquo;.
         </li>
         <li>
-          If you allow tracking, the advertising identifier may be shared with
+          If you allow tracking (iPhone) or tap &ldquo;Allow&rdquo; (Android),
+          the advertising identifier may be shared with
           TikTok and Meta together with conversion events: finishing the
           onboarding, starting a trial and subscribing (with the plan, price,
           currency and transaction id for the last two). The SDKs may also
@@ -198,8 +216,9 @@ export default function SculptPrivacy() {
         </li>
         <li>
           You can change your decision at any time in iOS Settings → Privacy
-          &amp; Security → Tracking → Sculpt, and the ad measurement choice in
-          Settings → Privacy inside the App. A change to the in-App choice
+          &amp; Security → Tracking → Sculpt, or on Android by deleting or
+          resetting your advertising ID in Settings → Privacy → Ads, and the
+          ad measurement choice in Settings → Privacy inside the App. A change to the in-App choice
           applies fully the next time you open the App.
         </li>
       </ul>
@@ -238,18 +257,24 @@ export default function SculptPrivacy() {
       <h2>8. Data sharing and security</h2>
       <p>
         We do not sell your personal information. We share data only with the
-        service providers described above (Apple, RevenueCat, and, if you
-        allowed them, PostHog, TikTok and Meta), with your consent, to comply
+        service providers described above (Apple or Google Play, RevenueCat,
+        and, if you allowed them, PostHog, TikTok and Meta), with your
+        consent, to comply
         with a legal obligation, or to protect our rights or your safety.
         Traffic to these services is encrypted. Your plan, answers and history
-        are protected by your device&apos;s built-in security. If device backups
-        are on, the App&apos;s data may be included in your backup, which Apple
-        controls. Some providers are based outside the European Union or
+        are protected by your device&apos;s built-in security. If device backups are on, the App&apos;s data may be included in your
+        backup, which Apple (iCloud or iTunes) or Google (Android Auto Backup,
+        stored in your Google account) controls. On Android, the backup covers
+        your plan, onboarding answers, practice history, settings and the few
+        small markers described in section 9. Your safety and health answers
+        (the avoid list, your dates and any time you tapped that something
+        hurts) are never part of the Android backup or of a device-to-device
+        transfer: after a restore, the App asks them again. Some providers are based outside the European Union or
         process data outside it, for example in the United States; their own
         policies describe the safeguards they use.
       </p>
 
-      <h2>9. Your rights and deleting your data</h2>
+      <h2 id="delete-your-data">9. Your rights and deleting your data</h2>
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
         <li>
           Access: everything you entered is on your device and visible in the
@@ -259,23 +284,27 @@ export default function SculptPrivacy() {
         <li>
           Delete: Settings → Privacy has a &ldquo;Delete my data&rdquo; option
           that erases your plan, answers (including your safety answers),
-          sticker sheet and history from the device, cancels the reminders the
-          App scheduled, and resets the anonymous analytics identity on the
-          device. It keeps your two privacy choices and does not cancel your
-          subscription (manage it in your Apple ID settings; you can restore
-          it later). If you used an earlier version of Sculpt and kept private
+          sticker sheet and history from the device, cancels the reminders the App scheduled, stops any session
+          notification, refreshes the widget so that it shows nothing of your
+          history, and resets the anonymous analytics identity on the device.
+          It keeps your two privacy choices and does not cancel your
+          subscription (manage it in your Apple ID settings on iPhone, or in
+          Google Play under Payments &amp; subscriptions on Android; you can
+          restore it later). If you used an earlier version of Sculpt and kept private
           progress photos, this version does not upload them; they remain on your
-          device until you uninstall the App. A few small markers (for example that
-          the free first session was used, and which purchases were already
-          reported) stay in your device&apos;s keychain, which also survives
-          uninstalling. They contain no personal information. Uninstalling the
-          App removes everything else stored on the device.
+          device until you uninstall the App. A few small markers (for example that the free first session was
+          used, and which purchases were already reported) stay in your
+          device&apos;s keychain on iPhone, which also survives uninstalling,
+          and in a small preferences file on Android, which may be restored
+          from your Google backup. They contain no personal information.
+          Uninstalling the App removes everything else stored on the device.
+          The App has no account, so there is no account to delete.
         </li>
         <li>
           Data held by providers: RevenueCat and PostHog identify you only by
           anonymous identifiers, and there is no account. To have your records
           deleted, write to us at the address below; we may ask for something
-          that lets us find your record, such as an Apple order number, and we
+          that lets us find your record, such as an Apple or Google Play order number, and we
           will forward the request to the provider. Resetting through
           &ldquo;Delete my data&rdquo; starts a new analytics identity but does
           not by itself erase past events held by PostHog. We keep analytics
@@ -285,7 +314,8 @@ export default function SculptPrivacy() {
         <li>
           Withdraw consent at any time: turn off &ldquo;Anonymous usage
           statistics&rdquo; or &ldquo;Ad measurement&rdquo; in Settings →
-          Privacy, and tracking in iOS Settings.
+          Privacy, and tracking in iOS Settings or the advertising ID in Android
+          Settings.
         </li>
         <li>Object to processing, or ask a question, by writing to us.</li>
         <li>

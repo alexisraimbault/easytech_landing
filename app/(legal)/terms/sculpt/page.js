@@ -11,7 +11,7 @@ export default function SculptTerms() {
     <div className="legal-content">
       <h1>Terms of Use - Sculpt: Face Yoga & Exercises</h1>
       <p>
-        <strong>Last updated:</strong> March 4, 2026
+        <strong>Last updated:</strong> October 15, 2026
       </p>
 
       <h2>1. Acceptance of Terms</h2>
@@ -23,10 +23,11 @@ export default function SculptTerms() {
 
       <h2>2. Description of Service</h2>
       <p>
-        {`Sculpt is a mobile application that provides face yoga and facial
-        exercise routines designed to help users tone and strengthen facial
-        muscles. The App offers personalized routines, guided exercises, and
-        progress tracking to support your facial fitness goals.`}
+        {`Sculpt is a mobile application for iPhone and Android that provides a
+        guided face, jaw and neck exercise routine for adults aged 18 and over.
+        The App offers a plan built from your answers, guided exercises with an
+        animated coach, short lessons and a record of your practice on your
+        device. It is a wellness routine and promises no results.`}
       </p>
 
       <h2>3. License</h2>
@@ -38,18 +39,25 @@ export default function SculptTerms() {
 
       <h2>4. Subscriptions and Purchases</h2>
       <p>
-        {`Sculpt offers both free and premium features. Premium features are
-        accessible through a paid subscription:`}
+        {`Sculpt offers both free and paid features. The paid features (Sculpt
+        Pro) are accessible through an auto-renewing subscription sold by Apple
+        (App Store) or by Google Play, depending on your device:`}
       </p>
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
-        <li>Prices are displayed in the App and may vary by region</li>
-        <li>Subscriptions renew automatically unless cancelled</li>
+        <li>Prices are displayed in the App and in the store before you buy, and may
+        vary by region</li>
+        <li>Subscriptions renew automatically unless cancelled at least 24 hours
+        before the end of the current period. New subscribers who are eligible
+        may get a free trial; any unused part of a free trial is forfeited when
+        you purchase a subscription</li>
         <li>
           You may cancel your subscription at any time through your Apple
-          account settings
+          account settings on iPhone, or in Google Play under Payments &amp;
+          subscriptions on Android
         </li>
         <li>
-          {`Refunds are handled in accordance with Apple's policies`}
+          {`Refunds are handled in accordance with Apple's or Google Play's
+          policies`}
         </li>
       </ul>
 
