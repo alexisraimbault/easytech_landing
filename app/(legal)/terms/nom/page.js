@@ -11,7 +11,7 @@ export default function NomTerms() {
     <div className="legal-content">
       <h1>Terms of Use - Nom: Cute Notes & Brain Dump</h1>
       <p>
-        <strong>Last updated:</strong> October 15, 2026
+        <strong>Last updated:</strong> October 17, 2026
       </p>
 
       <h2>1. Acceptance of Terms</h2>
@@ -28,7 +28,7 @@ export default function NomTerms() {
       </p>
       <h2>4. Subscriptions and Purchases</h2>
       <p>
-        {`Nom can be used for free with limits. Nom Pro is an optional auto-renewing subscription, billed monthly or yearly through your Apple Account (iOS) or your Google Play account (Android), that unlocks more of the App. The price and billing period are shown in the App before you subscribe. A free trial may be offered to new users.`}
+        {`Nom can be used for free with limits. Nom Pro is an optional auto-renewing subscription, billed monthly or yearly through your Apple Account (iOS) or your Google Play account (Android), that unlocks more of the App. The price and billing period are shown in the App before you subscribe. The yearly plan has a 7-day free trial and the monthly plan a 3-day free trial for people who are eligible; the App shows whether you are eligible before you subscribe.`}
       </p>
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
         <li>{`Payment is charged to your Apple Account (iOS) or your Google Play payment method (Android) when you confirm the purchase.`}</li>
@@ -43,7 +43,7 @@ export default function NomTerms() {
       </p>
       <h2>6. AI Processing</h2>
       <p>
-        {`Nom sends your content to AI services (Google Gemini and, for voice, ElevenLabs) to provide its features, after you give your permission in the App. We do not use your content to train AI models. AI output can be wrong or incomplete: check anything that matters before relying on it. Details are in our Privacy Policy.`}
+        {`Nom sends your content to AI services (Google Gemini and, for voice, ElevenLabs) to provide its features, after you give your permission in the App, which you can take back at any time in Settings under AI and your data. We do not use your content to train AI models. AI output can be wrong or incomplete: check anything that matters before relying on it. Details are in our Privacy Policy.`}
       </p>
       <h2>7. Acceptable Use</h2>
       <p>
@@ -62,7 +62,7 @@ export default function NomTerms() {
       </p>
       <h2>10. Termination and Data Deletion</h2>
       <p>
-        {`We may suspend or end your access if you violate these Terms. You may stop using the App at any time, and you can ask for your data to be deleted by writing to contact@easytech-agency.net; we delete it within 30 days, except where the law requires us to keep something.`}
+        {`We may suspend or end your access if you violate these Terms. You may stop using the App at any time. In the iPhone app you can delete your data yourself: open Days, tap the gear (Settings) and choose Delete my data and account. This does not cancel your subscription, which you manage in your Apple Account. You can also ask for your data to be deleted by writing to contact@easytech-agency.net; we delete it within 30 days, except where the law requires us to keep something.`}
       </p>
       <h2>11. Changes to Terms</h2>
       <p>

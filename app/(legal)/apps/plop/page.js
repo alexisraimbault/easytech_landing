@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Plop: Cute Notes & Habit Jar",
+  title: "Plop: Notes in Jars",
   description:
-    "Plop by EasyTech Agency: a cheerful home for everything in your head: you drop notes, good things, to-dos and habits into jars, shake a jar to draw an old note, and seal jars to open on a future date.",
+    "Plop by EasyTech Agency: Plop keeps the things you want to remember in jars. Each jar holds one kind of thing. You add notes, photos, links, voice notes and TikToks, and Plop sorts them into the right jar. You can give a jar a goal and a reward, draw a random note from a jar, and seal a jar until a date you choose (you can open it early). Nothing is shared with other users.",
 };
 
 export default function PlopApp() {
@@ -12,13 +12,13 @@ export default function PlopApp() {
         <h2>
           <span className="hero-accent">Plop</span>
         </h2>
-        <p>Cute Notes & Habit Jar</p>
+        <p>Notes in Jars</p>
       </section>
 
       <section className="app-card">
         <h3>About Plop</h3>
         <p>
-          {`Plop is a cheerful home for everything in your head: you drop notes, good things, to-dos and habits into jars, shake a jar to draw an old note, and seal jars to open on a future date.`}
+          {`Plop keeps the things you want to remember in jars. Each jar holds one kind of thing. You add notes, photos, links, voice notes and TikToks, and Plop sorts them into the right jar. You can give a jar a goal and a reward, draw a random note from a jar, and seal a jar until a date you choose (you can open it early). Nothing is shared with other users.`}
         </p>
       </section>
 

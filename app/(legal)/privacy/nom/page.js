@@ -11,7 +11,7 @@ export default function NomPrivacy() {
     <div className="legal-content">
       <h1>Privacy Policy - Nom: Cute Notes & Brain Dump</h1>
       <p>
-        <strong>Last updated:</strong> October 15, 2026
+        <strong>Last updated:</strong> October 17, 2026
       </p>
 
       <h2>1. Introduction</h2>
@@ -26,7 +26,7 @@ export default function NomPrivacy() {
         <li>{`Content you add: notes, to-dos, journal entries, energy and mood check-ins, focus-timer minutes, links, photos and voice recordings. It is typed, dictated or added by you in the App, and stored on our servers so it can be filed, found again and answered about.`}</li>
         <li>{`Device settings sent with requests: your time zone and language, so dates and wording match your device.`}</li>
         <li>{`Install source (Android only): when the App first opens, it reads the Google Play install referrer, a short campaign string that tells us which link or ad led to the install. It contains no personal data.`}</li>
-        <li>{`Usage data: screens viewed and features used, collected with PostHog analytics (events are tied to the same anonymous identifier) to help us improve the App.`}</li>
+        <li>{`Usage data: which features are used (for example counts and kinds of actions, never the text of your notes), collected with PostHog analytics. Events are tied to the same anonymous identifier. We use them to improve the App.`}</li>
         <li>{`Subscription status: whether you hold an active subscription, handled by Apple or Google Play and by RevenueCat.`}</li>
         <li>{`Calendar (optional): if you allow access, the App reads today's events on your device to show them next to your to-dos, and adds events you approve. Your calendar is read on the device and is never sent to our servers, except an event the App itself noticed in a note you wrote, which travels as the text of that note.`}</li>
       </ul>
@@ -52,27 +52,27 @@ export default function NomPrivacy() {
         <li>{`ElevenLabs: receives the audio of your voice recordings, and returns text (speech-to-text).`}</li>
       </ul>
       <p>
-        {`This data is sent only to provide the feature you are using. Before anything is sent, Nom tells you what is sent and to whom during onboarding, and asks for your permission. If you do not agree, nothing is sent. We only work with providers that protect your data in the same way as this policy.`}
+        {`This data is sent only to provide the feature you are using. Before anything is sent, Nom tells you what is sent and to whom during onboarding, and asks for your permission. If you do not agree, nothing is sent. You can take your permission back at any time in the app: open Days, tap the gear (Settings), then AI and your data, then Turn off. From then on Nom sends nothing new to these services: what you add waits on your phone, or Nom asks again before sending, until you turn it back on. What was already sent and stored stays until you delete it (see section 7). We only work with providers that protect your data in the same way as this policy.`}
       </p>
       <h2>5. Other Third-Party Services</h2>
       <ul style={{ marginLeft: "2rem", marginBottom: "1rem" }}>
         <li>{`Google Firebase Authentication: creates the anonymous identifier used to recognise your data.`}</li>
         <li>{`PostHog (EU): product analytics.`}</li>
         <li>{`Apple, Google Play and RevenueCat: process subscriptions. Payment is handled by Apple on iOS and by Google Play on Android; RevenueCat receives your purchase status and the identifier needed to unlock your subscription. We never see your payment details.`}</li>
-        <li>{`TikTok and Meta (advertising measurement): only if you agree, so that we can measure which ads brought you to the App. On iOS, this is the tracking question iOS asks; you can change your choice in iOS Settings → Privacy & Security → Tracking. On Android, the App asks on its own screen before anything starts, and the measurement uses your Android advertising ID; you can refuse, and you can reset or delete that ID at any time in Android Settings → Privacy → Ads. If you refuse, none of these services starts. We never sell your data.`}</li>
+        <li>{`TikTok and Meta (advertising measurement): we may use the ad attribution tools of TikTok and Meta to measure which ads led to an install of the App. When they are in use, they receive a few events (finishing the first setup, starting a free trial, subscribing, with the price, currency and product) and technical information about your device. They never receive the content of your notes. On iOS, the tracking question that iOS asks controls whether your device advertising identifier is available to them; if you refuse, it is not. You can change your choice at any time in iOS Settings → Privacy & Security → Tracking. On Android, the measurement uses your Android advertising ID, which you can reset or delete at any time in Android Settings → Privacy → Ads. We never sell your data.`}</li>
         <li>{`Speech recognition on your phone: when you dictate, iOS (Apple) or Android (Google) may process your speech under their own privacy terms.`}</li>
       </ul>
       <h2>6. Data Hosting and Transfers</h2>
       <p>
-        {`Your content is hosted on Google Cloud Platform in the United States (us-central1 region). For users in the European Union, this is an international data transfer. Google LLC is certified under the EU-U.S. Data Privacy Framework, which provides adequate safeguards for the transfer of personal data from the EU to the US.`}
+        {`Your content is hosted on Google Cloud Platform in Belgium (europe-west1 region): our server, our database and the storage of your photos and recordings are all in that region, and Google Vertex AI (Gemini) processes your content in the same region. Some of the other services described in sections 4 and 5 (for example ElevenLabs, RevenueCat, TikTok and Meta) may process data outside the European Economic Area, including in the United States. Where that happens, the transfer relies on the safeguards provided by the GDPR, such as an adequacy decision (for example the EU-U.S. Data Privacy Framework) or standard contractual clauses.`}
       </p>
       <h2>7. Retention and Deletion</h2>
       <p>
-        {`We keep your data for as long as you use Nom. You can ask us to delete your data at any time by writing to contact@easytech-agency.net from the device concerned, mentioning the App; we delete your content and identifier within 30 days, except where the law requires us to keep something. Deleting the App from your device removes the local data stored on it, but not the content already stored on our servers. On Android, the App opts out of Google backups, so its local data is not copied to your Google account either.`}
+        {`We keep your data for as long as you use Nom. You can delete it yourself, in the app, at any time: open Days, tap the gear (Settings), choose Delete my data and account, and confirm twice. This permanently deletes the notes, to-dos, check-ins, quests, garden, photos and voice recordings stored on our servers, together with your anonymous account, and clears the app on your phone. It happens right away and cannot be undone; the app then starts again as new. Deleting your data does not cancel your subscription: manage or cancel it in your Apple Account (Settings, your name, Subscriptions) on iOS, or in Google Play on Android. Purchase records kept by Apple, Google Play and RevenueCat to show your subscription are not erased by this; write to us to ask for it. Usage statistics already collected by PostHog are tied only to the anonymous identifier, which no longer belongs to any account after the deletion; write to us if you want them erased as well. If you cannot use the app, you can ask us to delete your data by writing to contact@easytech-agency.net from the device concerned, mentioning the App; we delete your content and identifier within 30 days, except where the law requires us to keep something. Deleting the App from your device removes the local data stored on it, but not the content already stored on our servers: use Delete my data and account first. On Android, the App opts out of Google backups, so its local data is not copied to your Google account either.`}
       </p>
       <h2>8. Your Rights</h2>
       <p>
-        {`Under the GDPR you have the right to access, rectify, delete and export your personal data, and to object to or restrict some processing. To exercise these rights, contact contact@easytech-agency.net. We respond within 30 days. You may also lodge a complaint with your data protection authority (in France, the CNIL).`}
+        {`Under the GDPR you have the right to access, rectify, delete and export your personal data, and to object to or restrict some processing. To exercise these rights, contact contact@easytech-agency.net. We respond within 30 days. You may also lodge a complaint with your data protection authority (in France, the CNIL). In the iPhone app, you can delete your data and withdraw your permission for AI processing yourself in Settings.`}
       </p>
       <h2>9. Your Content</h2>
       <p>
